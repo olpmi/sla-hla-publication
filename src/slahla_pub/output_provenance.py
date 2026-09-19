@@ -150,8 +150,14 @@ def classify() -> pd.DataFrame:
                         "one row (class1_F_alt, a historical comparison) differs from the "
                         "approved table; see CORRECTION_LOG.md")
                 else:
-                    add("S4b", c, "carried", "approved table", v,
-                        "MAFFT absent: install environments/structures.yml to recompute")
+                    # The fallback reads data/carried/tableS4b_pair_identity_verified.csv,
+                    # not the approved table: the approved table repeats class1_F's
+                    # identity on class1_F_alt, so carrying it would undo correction C2.
+                    add("S4b", c, "carried",
+                        "data/carried/tableS4b_pair_identity_verified.csv (MAFFT v7.526)", v,
+                        "MAFFT absent: the verified alignment record is carried, which "
+                        "preserves the corrected class1_F_alt identity; install "
+                        "environments/structures.yml to recompute")
             elif c in ("rmsd_displayed_in_final_figure",
                        "displayed_equals_round1_of_cealign", "identity_method"):
                 add("S4b", c, "recomputed", "derived from rmsd_cealign_CA", 0.0,

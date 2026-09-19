@@ -106,8 +106,10 @@ run. `make clean` removes `outputs/` and nothing else.
 
 The corrected workbook is built from the original, preserving its formatting,
 sheet names, column order and number formats; every sheet is verified against its
-regenerated CSV afterwards. `CORRECTION_LOG.md` gives the evidence for each
-change. No published measurement changes value.
+regenerated CSV afterwards. Two supplementary table values were corrected —
+Table S6's class I position 312 `coverage` and Table S4b's `class1_F_alt`
+identity. Neither correction changes a figure or manuscript conclusion.
+`CORRECTION_LOG.md` gives the evidence for each.
 
 ## Optional: recompute the structural measurements
 
@@ -134,8 +136,7 @@ repository by its release:
 > Swine MHC Sequences: Implications for Xenotransplantation*, release `v1.0.0`,
 > https://github.com/olpmi/sla-hla-publication
 
-**No archive DOI has been issued**; `PROVENANCE.md` records it as pending. Do not
-cite a DOI for this repository until one exists.
+**No archive DOI has been issued**; `PROVENANCE.md` records it as pending.
 
 **Model checkpoints are not deposited.** The recovered seed-42 checkpoints exist
 but have not been uploaded; seeds 43–46 are unavailable and cannot be reproduced

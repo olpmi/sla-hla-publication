@@ -68,8 +68,12 @@ allele the submitted legend named. It is not a displayed panel, and `record_leve
 says so. **Figure 5F is unchanged and correct**: it shows HLA-C\*07:02 and prints
 2.6 Å, which is `round(2.638, 1)` of its own recomputed CE RMSD.
 
-Without MAFFT installed both identity columns fall back to the approved values,
-and `identity_method` records that.
+Without MAFFT installed, the two identity columns are carried from
+`data/carried/tableS4b_pair_identity_verified.csv` rather than recomputed, and
+`identity_method` records that. That record holds the verified alignment result,
+so `class1_F_alt` keeps the corrected **75.58%** either way. The approved table
+is deliberately *not* used as the fallback: it repeats `class1_F`'s 74.92% on
+that row, so carrying it would undo this correction.
 
 ## Table S1 — two notes on the current output
 

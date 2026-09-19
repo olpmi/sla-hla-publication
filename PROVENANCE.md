@@ -21,8 +21,9 @@ Paths below that are not `slahla_pub` modules — `code/…`, `structural_render
 repository.
 
 - `figures_final.py` — from `code/build_figures_final.py` in the approved
-  package, the authoritative source for the published artwork. Five packaging
-  repairs are documented in its module docstring; no plotted quantity changed.
+  package, the authoritative source for the published artwork. Every
+  measurement, colour, size, panel letter and layout constant is preserved; no
+  plotted quantity changed.
 - `figure_helpers.py` — `project` and `place_labels`, reproduced verbatim from
   `structural_render_inputs/figures_structural_final.py` in the approved package.
   That script reached them by `ast.parse` + `exec` because importing it pulls in
@@ -36,16 +37,6 @@ repository.
 - `eplet_stats.py` — the statistics from `slahla.eplet_identity`, extended to the
   v6 definitions (per-locus scopes, the `(extreme + 1)/(shifts + 1)` estimator).
 - `haplotypes.py` — the workbook parser from `slahla.haplotypes`, unchanged.
-
-## Withdrawn analyses
-
-The integrated-gradients attribution pipeline and the residue-replacement
-(perturbation) pipeline are withdrawn from the publication, with their figures,
-tables and tests. A test asserts the withdrawn modules are not importable, so the
-workflow cannot come to depend on one by accident.
-
-Supplementary figure numbers S8–S10 belong to the eplet/agreement figures in the
-final numbering; earlier drafts used those numbers for the withdrawn work.
 
 ## Scope of retained assets
 

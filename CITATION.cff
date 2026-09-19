@@ -7,9 +7,8 @@ type: software
 repository-code: "https://github.com/olpmi/sla-hla-publication"
 url: "https://github.com/olpmi/sla-hla-publication"
 date-released: "2026-09-19"
-# No archive DOI has been issued. DOI deposition is separate from this GitHub
-# publication and remains pending; see PROVENANCE.md. Add an `identifiers:`
-# block with the DOI only once it exists.
+# No archive DOI has been issued; see PROVENANCE.md. Add an `identifiers:` block
+# with the DOI once one exists.
 abstract: >-
   Code, archived scientific inputs and documentation reproducing the figures,
   tables and statistics of a comparative analysis of human HLA and swine SLA MHC
@@ -22,13 +21,33 @@ keywords:
   - xenotransplantation
   - protein language model
   - eplet
+# `LICENSE` assigns copyright to the authors of the accompanying manuscript, so
+# software authorship follows the manuscript author list and order.
 authors:
-  - name: "The authors of the accompanying manuscript"
+  - family-names: "Olp"
+    given-names: "Michael"
+    affiliation: "University of Michigan Medical School, Department of Pathology, Ann Arbor, MI, USA"
+  - family-names: "Cusick"
+    given-names: "Matthew F."
+    affiliation: "University of Michigan Medical School, Department of Pathology, Ann Arbor, MI, USA"
+    email: "mfcusick@med.umich.edu"
+  - family-names: "Ho"
+    given-names: "Sam"
+    affiliation: "Gift of Hope Organ & Tissue Donor Network, Itasca, IL, USA; Department of Medicine, College of Human Medicine, Michigan State University, East Lansing, MI, USA"
 references:
   - type: article
     title: >-
       Comparative Bioinformatic Analysis of Human and Swine MHC Sequences:
       Implications for Xenotransplantation
     authors:
-      - name: "See the published manuscript"
+      - family-names: "Olp"
+        given-names: "Michael"
+      - family-names: "Cusick"
+        given-names: "Matthew F."
+      - family-names: "Ho"
+        given-names: "Sam"
+    journal: "Frontiers in Immunology"
+    section: "Alloimmunity and Transplantation"
+    number: "1938935"
+    year: 2026
     status: submitted
