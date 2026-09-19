@@ -63,8 +63,9 @@ records it in `outputs/reports/missing_inputs.json`.
 Rerunning the optional upstream stages additionally needs IPD-IMGT/HLA and
 IPD-MHC sequences and CIWD 3.0.0, which are likewise not redistributed.
 `data/MANIFEST.json` pins the source URL, SHA-256, byte count, retrieval date and
-release for every such file; `REPRODUCIBILITY.md` gives the acquisition
-procedure. See `DATA_LICENSES.md` before redistributing anything in `data/`.
+release for every such file — acquire each from its recorded URL and check it
+against the recorded SHA-256 before use. See `DATA_LICENSES.md` before
+redistributing anything in `data/`.
 
 ## Reproduce the published results
 
@@ -109,7 +110,8 @@ sheet names, column order and number formats; every sheet is verified against it
 regenerated CSV afterwards. Two supplementary table values were corrected —
 Table S6's class I position 312 `coverage` and Table S4b's `class1_F_alt`
 identity. Neither correction changes a figure or manuscript conclusion.
-`CORRECTION_LOG.md` gives the evidence for each.
+`make verify` prints both with their old and new values, and
+`outputs/reports/validation_report.md` tabulates them with the basis for each.
 
 ## Optional: recompute the structural measurements
 
@@ -136,7 +138,8 @@ repository by its release:
 > Swine MHC Sequences: Implications for Xenotransplantation*, release `v1.0.0`,
 > https://github.com/olpmi/sla-hla-publication
 
-**No archive DOI has been issued**; `PROVENANCE.md` records it as pending.
+**No archive DOI has been issued.** DOI deposition is a separate step from this
+GitHub publication and remains pending.
 
 **Model checkpoints are not deposited.** The recovered seed-42 checkpoints exist
 but have not been uploaded; seeds 43–46 are unavailable and cannot be reproduced

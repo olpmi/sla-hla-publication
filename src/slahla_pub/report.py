@@ -291,8 +291,7 @@ def render(rep: dict) -> str:
       "75.58 | MAFFT v7.526, 229/303 identical residues; evidence in "
       "`data/carried/tableS4b_pair_identity_verified.csv` |")
     A("")
-    A("Neither correction changes a figure or manuscript conclusion. See "
-      "`CORRECTION_LOG.md`.")
+    A("Neither correction changes a figure or manuscript conclusion.")
     A("")
 
     A("## Limitations")

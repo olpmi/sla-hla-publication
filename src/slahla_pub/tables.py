@@ -48,8 +48,8 @@ def table_s1() -> tuple[pd.DataFrame, pd.DataFrame]:
     ``most_distant_*`` columns are pairwise sequence identities against the CIWD
     3.0 common-and-well-documented allele set, which needs the DIAMOND all-vs-all
     stage over IPD-IMGT/HLA and the CIWD release. Neither can be redistributed
-    here, so those columns are carried from the approved table and the upstream
-    route is documented in REPRODUCIBILITY.md.
+    here, so those columns are carried from the approved table. ``data/MANIFEST.json``
+    pins the URL and SHA-256 of every file that stage would need.
     """
     published = _published("S1")
     recomputed = H.alleles_by_haplotype()

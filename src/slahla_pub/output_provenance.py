@@ -148,7 +148,8 @@ def classify() -> pd.DataFrame:
                 if method.startswith("MAFFT"):
                     add("S4b", c, "recomputed", "MAFFT over the modelled sequences", v,
                         "one row (class1_F_alt, a historical comparison) differs from the "
-                        "approved table; see CORRECTION_LOG.md")
+                        "approved table; evidence in "
+                        "data/carried/tableS4b_pair_identity_verified.csv")
                 else:
                     # The fallback reads data/carried/tableS4b_pair_identity_verified.csv,
                     # not the approved table: the approved table repeats class1_F's

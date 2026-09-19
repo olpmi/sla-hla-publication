@@ -56,8 +56,9 @@ INTENTIONAL_COLUMN_CHANGES = {
 }
 
 #: Values this release deliberately CORRECTS in the approved tables. Each is an
-#: error in the approved value, verified against the underlying data, with the
-#: old value preserved in CORRECTION_LOG.md. They are expected to differ.
+#: error in the approved value, verified against the underlying data. The old
+#: value is preserved in publication_artwork/ and printed beside the new one
+#: below, so both appear in the run output. They are expected to differ.
 CORRECTED_VALUES = {
     ("S6", "coverage"):
         "class I position 312: the approved table divides by the 22 matrix rows present at "

@@ -7,8 +7,8 @@ type: software
 repository-code: "https://github.com/olpmi/sla-hla-publication"
 url: "https://github.com/olpmi/sla-hla-publication"
 date-released: "2026-09-19"
-# No archive DOI has been issued; see PROVENANCE.md. Add an `identifiers:` block
-# with the DOI once one exists.
+# No archive DOI has been issued. Add an `identifiers:` block with the DOI
+# once one exists.
 abstract: >-
   Code, archived scientific inputs and documentation reproducing the figures,
   tables and statistics of a comparative analysis of human HLA and swine SLA MHC

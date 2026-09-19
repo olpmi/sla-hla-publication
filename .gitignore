@@ -16,6 +16,11 @@ data/local/
 /scripts/stage_deposit.py
 /validation/cleanroom.json
 
+# Internal documentation
+/CORRECTION_LOG.md
+/PROVENANCE.md
+/REPRODUCIBILITY.md
+
 # Legacy location of generated validation output
 /VALIDATION_REPORT.md
 
