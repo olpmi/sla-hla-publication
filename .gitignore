@@ -1,13 +1,35 @@
-# Regenerated outputs. `make reproduce` rebuilds all of this.
+# Regenerated outputs. `make reproduce` rebuilds all of this, including the
+# validation report at outputs/reports/validation_report.md.
 outputs/
 
-# Deposition staging: large archives built by scripts/stage_deposit.py.
+# Deposition staging: large archives of checkpoints and vector artwork.
 staging/
 
 # Locally supplied external inputs. The eplet position mask is derived from the
 # HLA Eplet Registry and is NOT redistributed by this repository; see
 # DATA_LICENSES.md. Anything here is the user's own licensed copy.
 data/local/
+
+# Author-only submission and release utilities
+/MIRROR_INTO_SUBMISSION.md
+/scripts/build_review_bundle.py
+/scripts/stage_deposit.py
+/validation/cleanroom.json
+
+# Legacy location of generated validation output
+/VALIDATION_REPORT.md
+
+# Local review and handoff material
+/_local/
+/review/
+/handoff/
+/sla-hla-publication-*-review.zip*
+
+# Local environments and development caches
+/.venv/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
 
 __pycache__/
 *.py[cod]

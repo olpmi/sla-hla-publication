@@ -11,7 +11,7 @@ applies rather than presenting a copy as a regeneration:
                   inputs cannot be redistributed (S6).
 
 ``PUBLICATION_OUTPUTS.csv`` carries the same classification per output, and
-``VALIDATION_REPORT.md`` records what was compared.
+``outputs/reports/validation_report.md`` records what was compared.
 """
 from __future__ import annotations
 
@@ -362,8 +362,8 @@ def data_dictionary() -> pd.DataFrame:
     3. The two identity descriptions name their method (MAFFT) and say whether
        this run recomputed them.
 
-    ``MIRROR_INTO_SUBMISSION.md`` lists these so they can be applied to the
-    delivered workbook, which this repository does not modify.
+    The approved dictionary under ``publication_artwork/`` is not modified; the
+    corrected one is written to ``outputs/``.
     """
     d = pd.read_csv(ARTWORK / "tables" / "PUBLICATION_TABLES_DATA_DICTIONARY.csv")
     hist = d[(d.table == "S4b") & (d.column.isin(_HIST_RENAME))].copy()

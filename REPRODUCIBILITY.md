@@ -3,21 +3,20 @@
 What the published results start from, how to rerun the stages upstream of that,
 and what is known not to reproduce.
 
-## Two validations, and the difference between them
+## What the eplet position mask changes
 
-This repository has been run two ways, and the reports distinguish them:
+The mask is not redistributed (see `DATA_LICENSES.md`) and what the repository
+produces depends on whether you supply it:
 
-- **With locally available inputs** — the eplet position mask supplied from a
-  registry export held under licence. All 16 figures and all publication tables
-  are produced, and the eplet statistics are recomputed.
-- **From the public bundle alone** — no mask. 13 of 16 figures; Figures S8, S9
-  and S10 are not produced, and Figure 4 and Table S3 fall back to archived
-  aggregate statistics. The run reports this explicitly and records it in
-  `outputs/reports/missing_inputs.json`.
+- **With the mask** — all 16 figures and all publication tables; the eplet
+  statistics are recomputed.
+- **Without it** — 13 of 16 figures. Figures S8, S9 and S10 are not produced,
+  and Figure 4 and Table S3 fall back to archived aggregate statistics.
 
-`VALIDATION_REPORT.md` states which mode each result came from. Nothing in the
-public-bundle run is skipped silently, and no output is produced from a guessed
-substitute for a missing input.
+Either way the run records what was produced in
+`outputs/reports/validation_report.md` and what was blocked in
+`outputs/reports/missing_inputs.json`. Nothing is skipped silently, and no
+output is produced from a substitute for a missing input.
 
 ## Scientific starting points
 
@@ -54,15 +53,13 @@ Checkpoint availability is a separate matter from prediction availability:
   retraining under the identical protocol yields different weights. Anyone who
   retrains is producing a *new* draw from the procedure, not recovering the
   archived one.
-- Reconstructed checkpoints produced by later retraining exist in the private
-  development record and are **not** interchangeable with the originals. They are
-  excluded here. No reconstructed prediction is substituted for an archived one
-  anywhere in this repository, and `slahla_pub.ensemble` refuses to load anything
-  outside the canonical ten.
+- Checkpoints produced by later retraining are **not** interchangeable with the
+  originals and are excluded. No reconstructed prediction is substituted for an
+  archived one anywhere in this repository, and `slahla_pub.ensemble` refuses to
+  load anything outside the canonical ten.
 
-The archive also contains two controlled split-design arms (`armA_full_random`,
-`armB_dedup_random`, seed 42) built for the reviewer response, and two legacy
-single-model tables from the submitted analysis. None is an ensemble member;
+Two controlled split-design arms (`armA_full_random`, `armB_dedup_random`, seed
+42) and two legacy single-model tables also exist. None is an ensemble member;
 `ensemble.probs_path` raises if asked for one.
 
 ## Rerunning the upstream stages

@@ -1,35 +1,27 @@
 """Final publication figures: Figures 1-6 and S1-S10.
 
 Derived from ``code/build_figures_final.py`` in the author-approved manuscript
-delivery package, which is the authoritative source for appearance. Every
-measurement, colour, size, panel letter and layout constant is preserved
-verbatim, including the deliberate omission of numeric cell labels from the
-large locus-confusion matrices in S2C and S6C.
+package, which is the authoritative source for appearance. Every measurement,
+colour, size, panel letter and layout constant is preserved verbatim, including
+the deliberate omission of numeric cell labels from the large locus-confusion
+matrices in S2C and S6C. No plotted quantity differs.
 
-Five changes were needed to make it usable outside the delivery package. All
-five are packaging repairs; none alters a plotted quantity.
+Four choices are not obvious from the code alone:
 
-1. The delivery script built FigureS1 and FigureS3/S4/S5/S7 and then discarded
-   them with ``plt.close()``, because those five figures were unchanged from the
-   previous round and their artwork was carried over. Their ``save()`` calls are
-   restored, so all sixteen figures now regenerate here.
-2. Generated linkage/ordering/edge/label-audit CSVs and
-   ``panel_letter_validation.json`` were written back into ``source_data/``,
-   mutating the script's own inputs. They now go to ``outputs/``; the archived
-   inputs are read-only and ``make verify`` asserts they are byte-unchanged.
-3. FigureS10's two significance labels were hard-coded strings. They are now
-   derived from ``eplet_statistics_v6.csv`` via
-   ``figure_helpers.format_permutation_p``, which reproduces the published
-   rendering exactly. The p-value belongs to ``profile_difference`` (the
-   equal-position contrast), not to ``difference``; see
-   ``source_data/EPLET_STATISTIC_DEFINITIONS.md``.
-4. ``project()`` and ``_place_labels()`` were reached by ``ast.parse`` +
-   ``exec`` of a PyMOL-importing module. They are now ordinary imports from
-   ``figure_helpers``.
-5. The structural panel titles now come from ``structural_panel_manifest_v6.csv``
-   (the corrected manifest) rather than the superseded
-   ``..._original_measurements.csv``. The two are asserted to agree on the allele
-   fields actually consumed before the newer one is used.
+- Generated linkage/ordering/edge/label-audit CSVs and
+  ``panel_letter_validation.json`` go to ``outputs/``, never back into
+  ``source_data/``: the archived inputs are read-only and ``make verify``
+  asserts they are byte-unchanged after a run.
+- FigureS10's two significance labels are derived from
+  ``eplet_statistics_v6.csv`` via ``figure_helpers.format_permutation_p``. The
+  p-value belongs to ``profile_difference`` (the equal-position contrast), not
+  to ``difference``; see ``source_data/EPLET_STATISTIC_DEFINITIONS.md``.
+- Structural panel titles come from ``structural_panel_manifest_v6.csv``, not
+  the superseded ``..._original_measurements.csv``. The two are asserted to
+  agree on the allele fields actually consumed before the newer one is used.
+- ``project()`` and ``place_labels()`` are imported from ``figure_helpers``
+  rather than exec'd out of a PyMOL-importing module, so drawing a figure never
+  requires PyMOL.
 """
 from __future__ import annotations
 

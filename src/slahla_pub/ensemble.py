@@ -15,9 +15,9 @@ descriptor*, never as the estimator.
 Membership is closed
 --------------------
 Only ``armC_dedup_cluster`` seeds 42-46 are canonical. The archive also contains
-``armA_full_random`` and ``armB_dedup_random`` (the controlled split-design arms
-built for the reviewer response) and two legacy single-model tables from the
-submitted analysis. Those six are *not* ensemble members, and
+``armA_full_random`` and ``armB_dedup_random`` (controlled split-design
+comparison arms) and two legacy single-model tables. Those six are *not*
+ensemble members, and
 :func:`load_seed_matrix` refuses to read anything outside the canonical ten
 rather than silently averaging a non-canonical arm into a published number.
 """

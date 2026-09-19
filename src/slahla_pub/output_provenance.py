@@ -148,7 +148,7 @@ def classify() -> pd.DataFrame:
                 if method.startswith("MAFFT"):
                     add("S4b", c, "recomputed", "MAFFT over the modelled sequences", v,
                         "one row (class1_F_alt, a historical comparison) differs from the "
-                        "approved table; see VALIDATION_REPORT.md")
+                        "approved table; see CORRECTION_LOG.md")
                 else:
                     add("S4b", c, "carried", "approved table", v,
                         "MAFFT absent: install environments/structures.yml to recompute")

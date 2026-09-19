@@ -17,8 +17,8 @@ def test_only_ten_canonical_members_ship():
 
 
 def test_controlled_arms_are_refused_as_ensemble_members():
-    """armA/armB are the split-design comparison arms for the reviewer response.
-    Averaging one into the ensemble would change a published number."""
+    """armA/armB are controlled split-design comparison arms, not ensemble
+    members. Averaging one in would change a published number."""
     for bad in ensemble.NON_CANONICAL:
         with pytest.raises(ValueError, match="canonical"):
             ensemble.probs_path("class1", bad)
