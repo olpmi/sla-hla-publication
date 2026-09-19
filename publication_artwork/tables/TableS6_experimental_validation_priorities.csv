@@ -1,0 +1,528 @@
+analysis,mhc_class,position,mean_agreement,divergence,n_pairs_covering,coverage,is_eplet_associated,eplet_loci_defining,eplet_names,eplet_analysis_support,d_peptide,d_tcr,d_partner,sasa_assembled,reference_pdb,evidence_streams,eplet_name_source,eplet_named_in_registry_group_mask
+class1,I,194,0.0,1.0,205,0.7915057915057915,True,A;B;C,193AV;193PI;193PV;194V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,10.817,104.17,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,199,0.0048780487804878,0.9951219512195122,205,0.7915057915057915,True,B,199V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,69,0.0347490347490347,0.9652509652509652,259,1.0,True,B,69AA;69RA;69RT;69TNT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,4.396,3.733,15.565,3.4,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,151,0.0352941176470588,0.9647058823529412,255,0.9845559845559846,True,A;B,149TAH;150AH;151AHA;151AHE;151AHV;151ARV;151H,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,6.613,3.975,19.337,88.2,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,41,0.0386100386100386,0.9613899613899614,259,1.0,True,B,41T,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,16.576,16.466,10.408,103.6,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,158,0.0509803921568627,0.9490196078431372,255,0.9845559845559846,True,B,158T,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,6.982,3.758,19.275,17.01,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,177,0.0524193548387096,0.9475806451612904,248,0.9575289575289576,True,B;C,177DK;177DT;177KT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,17.857,17.715,16.74,147.76,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,70,0.054054054054054,0.945945945945946,259,1.0,True,B,69TNT;70IAQ,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.242,5.818,11.406,1.59,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,267,0.0555555555555555,0.9444444444444444,198,0.7644787644787645,True,B;C,267QE,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,21.632,122.11,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,16,0.0634920634920634,0.9365079365079364,252,0.972972972972973,True,C,16S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,19.735,21.851,12.048,86.52,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,144,0.0862745098039215,0.9137254901960784,255,0.9845559845559846,True,A;B,144K;144KR;144QL;144TKH,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,19,0.1785714285714285,0.8214285714285714,252,0.972972972972973,True,A,19K,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,11.917,11.241,11.758,106.2,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,45,0.1814671814671814,0.8185328185328186,259,1.0,True,B,44RM;44RMA;44RME;45EE;45KE,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.559,11.309,9.683,9.55,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,156,0.188235294117647,0.8117647058823529,255,0.9845559845559846,True,A;B;C,156DA;156L;156QA;156R;156RA;156WA,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.793,7.315,12.418,1.13,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,77,0.2084942084942085,0.7915057915057915,259,1.0,True,A;B;C,76ES;77D;77N;77NGT;77S;77SRN,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.087,7.425,12.34,0.11,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,275,0.2121212121212121,0.7878787878787878,198,0.7644787644787645,True,A;B;C,275EL;275G;275K,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,79,0.2123552123552123,0.7876447876447876,259,1.0,True,A,79GT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,170,0.2310756972111553,0.7689243027888446,251,0.9691119691119692,True,A;B,170RH,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,7.68,3.642,19.955,74.66,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,73,0.251937984496124,0.748062015503876,258,0.996138996138996,True,B;C,73AN;73AS;73ID;73TVS,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.502,4.238,14.011,0.0,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,163,0.2598425196850393,0.7401574803149606,254,0.9806949806949808,True,A;B;C,163E;163EW;163L;163LE;163LG;163LW;163R;163RG;163RW;163T,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.836,3.391,19.1,8.74,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,161,0.2913385826771653,0.7086614173228347,254,0.9806949806949808,True,A,161D,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,9.171,6.265,18.35,81.93,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,80,0.3474903474903475,0.6525096525096525,259,1.0,True,A;B;C,79GT;80I;80K;80N;80T;80TA;80TL;80TLR,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.827,9.878,13.802,36.81,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,152,0.3568627450980392,0.6431372549019607,255,0.9845559845559846,True,A;B;C,152A;152E;152HA;152RA;152RE;152RR;152T;152V;152W,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.504,4.793,14.617,7.03,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,65,0.5482625482625483,0.4517374517374517,259,1.0,True,A;B,65GK;65QIA;65QKR;65RA;65RK;65RNA,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,6.573,2.851,16.973,74.73,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,138,0.5764705882352941,0.4235294117647059,255,0.9845559845559846,True,A;C,138K;138MI,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,109,0.616600790513834,0.383399209486166,253,0.9768339768339768,True,A;B,109F,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,143,0.6235294117647059,0.3764705882352941,255,0.9845559845559846,True,B;C,143S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,62,0.6293436293436293,0.3706563706563707,259,1.0,True,A;B,62EE;62GE;62GK;62GRN;62LQ;62QE;62RN;62RR,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,6.007,4.97,17.646,9.72,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,147,0.64453125,0.35546875,256,0.9884169884169884,True,B;C,147L,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,71,0.7413127413127413,0.2586872586872587,259,1.0,True,B,69TNT;71ATD;71HS;71KA;71QS;71SA;71TD;71TN;71TTS,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,76,0.7799227799227799,0.22007722007722,259,1.0,True,A;B;C,76ANT;76ED;76EG;76EN;76ES;76ESI;76ESN;76ET;76VDT;76VRN;76VS,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.576,6.678,16.131,47.99,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,17,0.7976190476190477,0.2023809523809523,252,0.972972972972973,True,A,17S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,43,0.8015564202334631,0.1984435797665369,257,0.9922779922779924,True,A,43R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,11.288,10.778,11.726,76.71,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,173,0.8064516129032258,0.1935483870967742,248,0.9575289575289576,True,C,173K,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,81,0.8108108108108109,0.1891891891891891,259,1.0,True,A;B,80TL;81ALR,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,82,0.8146718146718147,0.1853281853281853,259,1.0,True,A;B,82LR,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,44,0.8687258687258688,0.1312741312741312,259,1.0,True,A;B,44K;44RM;44RMA;44RME;44RT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,105,0.875,0.125,256,0.9884169884169884,True,A,105S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,90,0.8764478764478765,0.1235521235521235,259,1.0,True,A;B;C,90D,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,21,0.8809523809523809,0.119047619047619,252,0.972972972972973,True,C,21H,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,149,0.8853754940711462,0.1146245059288537,253,0.9768339768339768,True,A,149AH;149TAH,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,131,0.8862745098039215,0.1137254901960784,255,0.9845559845559846,True,B,131S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,12.238,9.217,17.13,157.53,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,219,0.8883495145631068,0.1116504854368931,206,0.7953667953667953,True,C,219W,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,150,0.8980392156862745,0.1019607843137254,255,0.9845559845559846,True,A,149TAH;150AAH;150AH,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,12,0.9007936507936508,0.0992063492063491,252,0.972972972972973,True,A;B,12M,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,56,0.9221789883268484,0.0778210116731517,257,0.9922779922779924,True,A,56E;56R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,162,0.9409448818897638,0.0590551181102362,254,0.9806949806949808,True,B,162DLS;162GLS,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,253,0.9444444444444444,0.0555555555555555,198,0.7644787644787645,True,A;B;C,253Q,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,91,0.9575289575289576,0.0424710424710425,259,1.0,True,C,91R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,107,0.9607843137254902,0.0392156862745097,255,0.9845559845559846,True,A,107W,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,166,0.9641434262948207,0.0358565737051792,251,0.9691119691119692,True,A;B,166DG;166ES,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,180,0.9758064516129032,0.0241935483870967,248,0.9575289575289576,True,B,180E,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,145,0.984313725490196,0.0156862745098039,255,0.9845559845559846,True,A,145HT;145KHA;145RT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,59,0.9844961240310076,0.0155038759689922,258,0.996138996138996,True,B,59H,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,14,0.988095238095238,0.0119047619047618,252,0.972972972972973,True,C,14W,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,127,0.9882352941176472,0.0117647058823529,255,0.9845559845559846,True,A,127K,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,245,0.9949494949494948,0.005050505050505,198,0.7644787644787645,True,A,245AS;245TA;245V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,270,0.9949748743718592,0.0050251256281407,199,0.7683397683397684,True,B;C,270C,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,186,0.9952380952380953,0.0047619047619047,210,0.8108108108108109,True,A,186R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,193,1.0,0.0,205,0.7915057915057915,True,A;B;C,193AV;193LV;193PI;193PL;193PV,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,248,1.0,0.0,198,0.7644787644787645,True,C,248M,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,42,0.0,1.0,257,0.9922779922779924,False,,,,,,,,,sequence/eplet,,False
+class1,I,121,0.0,1.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,191,0.0,1.0,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,197,0.0,1.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,198,0.0,1.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,211,0.0,1.0,205,0.7915057915057915,False,,211T,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,214,0.0,1.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,228,0.0,1.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,236,0.0,1.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,247,0.0,1.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,256,0.0,1.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,281,0.0,1.0,181,0.6988416988416989,False,,,,,,,,,sequence/eplet,,False
+class1,I,295,0.0,1.0,164,0.6332046332046332,False,,,,,,,,,sequence/eplet,,False
+class1,I,312,0.0,1.0,1,0.0454545454545454,False,,,,,,,,,sequence/eplet,,False
+class1,I,278,0.005050505050505,0.9949494949494948,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,5,0.0198412698412698,0.98015873015873,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,308,0.0213903743315508,0.9786096256684492,187,0.722007722007722,False,,,,,,,,,sequence/eplet,,False
+class1,I,309,0.0253807106598984,0.9746192893401016,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,298,0.0255102040816326,0.9744897959183674,196,0.7567567567567568,False,,,,,,,,,sequence/eplet,,False
+class1,I,289,0.027027027027027,0.972972972972973,185,0.7142857142857143,False,,,,,,,,,sequence/eplet,,False
+class1,I,174,0.032258064516129,0.967741935483871,248,0.9575289575289576,False,,,,,,,,,sequence/eplet,,False
+class1,I,292,0.0377358490566037,0.9622641509433962,106,0.4092664092664093,False,,,,,,,,,sequence/eplet,,False
+class1,I,288,0.0406091370558375,0.9593908629441624,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,220,0.0436893203883495,0.9563106796116504,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,222,0.0436893203883495,0.9563106796116504,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,251,0.0505050505050505,0.9494949494949496,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,282,0.0507614213197969,0.949238578680203,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,225,0.058252427184466,0.941747572815534,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,108,0.0745098039215686,0.9254901960784314,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,297,0.0918367346938775,0.9081632653061223,196,0.7567567567567568,False,,,,,,,,,sequence/eplet,,False
+class1,I,300,0.1071428571428571,0.8928571428571429,196,0.7567567567567568,False,,,,,,,,,sequence/eplet,,False
+class1,I,304,0.1116751269035533,0.8883248730964467,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,114,0.1137254901960784,0.8862745098039215,255,0.9845559845559846,False,,113HD;113HN;113YD;114H;114Q;114R,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,57,0.1235521235521235,0.8764478764478765,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,74,0.1235521235521235,0.8764478764478765,259,1.0,False,,74Y,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,67,0.1505791505791505,0.8494208494208494,259,1.0,False,,66IC;66IS;66IY;66NV,,3.98,6.643,11.655,0.0,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,184,0.1571428571428571,0.8428571428571429,210,0.8108108108108109,False,,184A;184H;184R,,25.0,25.0,12.417,44.33,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,97,0.1698841698841698,0.8301158301158301,259,1.0,False,,97I;97M;97N;97R;97S;97T;97V;97W,,3.461,8.657,3.821,6.38,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,306,0.1783783783783784,0.8216216216216217,185,0.7142857142857143,False,,,,,,,,,sequence/eplet,,False
+class1,I,277,0.1818181818181818,0.8181818181818181,33,0.1274131274131274,False,,,,,,,,,sequence/eplet,,False
+class1,I,116,0.1843137254901961,0.8156862745098039,255,0.9845559845559846,False,,116D;116F;116L;116S;116Y,,3.555,11.138,3.887,1.37,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,52,0.193050193050193,0.8069498069498069,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,310,0.2233502538071066,0.7766497461928934,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,293,0.2242990654205607,0.7757009345794392,107,0.4131274131274131,False,,,,,,,,,sequence/eplet,,False
+class1,I,66,0.2818532818532818,0.7181467181467182,259,1.0,False,,65RK;66I;66IC;66IF;66IS;66IY;66K;66KA;66KH;66N;66NH;66NM;66NV,,3.002,3.538,15.098,6.97,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,20,0.3531746031746032,0.6468253968253967,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,6,0.3809523809523809,0.6190476190476191,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,169,0.4262948207171315,0.5737051792828685,251,0.9691119691119692,False,,,,,,,,,sequence/eplet,,False
+class1,I,24,0.4325396825396825,0.5674603174603174,252,0.972972972972973,False,,24S;24T,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,296,0.4659685863874345,0.5340314136125655,191,0.7374517374517374,False,,,,,,,,,sequence/eplet,,False
+class1,I,53,0.471042471042471,0.528957528957529,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,305,0.5187165775401069,0.4812834224598931,187,0.722007722007722,False,,,,,,,,,sequence/eplet,,False
+class1,I,167,0.5258964143426295,0.4741035856573705,251,0.9691119691119692,False,,,,,,,,,sequence/eplet,,False
+class1,I,155,0.5294117647058824,0.4705882352941176,255,0.9845559845559846,False,,,,3.687,2.657,17.705,12.37,1AO7,sequence/eplet + structural,,False
+class1,I,102,0.54296875,0.45703125,256,0.9884169884169884,False,,102H,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,9,0.5476190476190477,0.4523809523809523,252,0.972972972972973,False,,9D;9F;9H;9S;9T;9Y,,3.604,11.322,3.645,0.49,1AO7,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,68,0.5521235521235521,0.4478764478764478,259,1.0,False,,,,6.42,3.944,14.74,66.83,1AO7,sequence/eplet + structural,,False
+class1,I,299,0.5561224489795918,0.4438775510204081,196,0.7567567567567568,False,,,,,,,,,sequence/eplet,,False
+class1,I,103,0.5625,0.4375,256,0.9884169884169884,False,,103L;103M,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,23,0.6111111111111112,0.3888888888888888,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,95,0.6177606177606177,0.3822393822393822,259,1.0,False,,95F;95I;95L;95V;95W,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,294,0.6228571428571429,0.3771428571428571,175,0.6756756756756757,False,,,,,,,,,sequence/eplet,,False
+class1,I,303,0.6243654822335025,0.3756345177664975,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,307,0.6432432432432432,0.3567567567567568,185,0.7142857142857143,False,,,,,,,,,sequence/eplet,,False
+class1,I,58,0.6486486486486487,0.3513513513513513,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,301,0.6593406593406593,0.3406593406593406,182,0.7027027027027027,False,,,,,,,,,sequence/eplet,,False
+class1,I,124,0.7019607843137254,0.2980392156862745,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,117,0.7686274509803922,0.2313725490196078,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,111,0.7725490196078432,0.2274509803921568,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,63,0.7837837837837838,0.2162162162162162,259,1.0,False,,62GE;62LQ;62RN;63NI,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,54,0.7915057915057915,0.2084942084942085,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,311,0.7969543147208121,0.2030456852791878,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,11,0.8015873015873016,0.1984126984126983,252,0.972972972972973,False,,11AV,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,99,0.8146718146718147,0.1853281853281853,259,1.0,False,,99F;99S;99Y,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,284,0.8324873096446701,0.1675126903553299,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,279,0.8333333333333334,0.1666666666666666,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,49,0.833976833976834,0.166023166023166,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,50,0.8455598455598455,0.1544401544401544,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,39,0.8532818532818532,0.1467181467181467,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,302,0.8579234972677595,0.1420765027322404,183,0.7065637065637066,False,,,,,,,,,sequence/eplet,,False
+class1,I,183,0.861904761904762,0.138095238095238,210,0.8108108108108109,False,,,,,,,,,sequence/eplet,,False
+class1,I,176,0.8629032258064516,0.1370967741935483,248,0.9575289575289576,False,,,,,,,,,sequence/eplet,,False
+class1,I,148,0.890625,0.109375,256,0.9884169884169884,False,,,,,,,,,sequence/eplet,,False
+class1,I,94,0.8918918918918919,0.1081081081081081,259,1.0,False,,94I,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,89,0.8957528957528957,0.1042471042471042,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,182,0.9032258064516128,0.0967741935483871,248,0.9575289575289576,False,,,,,,,,,sequence/eplet,,False
+class1,I,98,0.9073359073359072,0.0926640926640927,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,291,0.91,0.0899999999999999,100,0.3861003861003861,False,,,,,,,,,sequence/eplet,,False
+class1,I,38,0.915057915057915,0.084942084942085,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,72,0.915057915057915,0.084942084942085,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,178,0.9193548387096774,0.0806451612903226,248,0.9575289575289576,False,,177DK,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,125,0.9215686274509804,0.0784313725490196,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,83,0.9227799227799228,0.0772200772200771,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,283,0.9238578680203046,0.0761421319796954,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,268,0.9292929292929292,0.0707070707070707,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,285,0.934010152284264,0.065989847715736,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,32,0.9343629343629344,0.0656370656370656,259,1.0,False,,32L,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,46,0.9343629343629344,0.0656370656370656,259,1.0,False,,44RMA;44RME;45EE,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,22,0.9365079365079364,0.0634920634920634,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,136,0.9411764705882352,0.0588235294117647,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,216,0.9414634146341464,0.0585365853658537,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,239,0.9414634146341464,0.0585365853658537,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,10,0.9444444444444444,0.0555555555555555,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,261,0.9444444444444444,0.0555555555555555,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,273,0.9444444444444444,0.0555555555555555,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,137,0.9450980392156862,0.0549019607843137,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,290,0.9456521739130436,0.0543478260869565,184,0.7104247104247104,False,,,,,,,,,sequence/eplet,,False
+class1,I,27,0.945945945945946,0.054054054054054,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,28,0.945945945945946,0.054054054054054,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,75,0.945945945945946,0.054054054054054,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,286,0.949238578680203,0.0507614213197969,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,35,0.9498069498069498,0.0501930501930502,259,1.0,False,,35Q,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,195,0.951219512195122,0.048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,113,0.9529411764705882,0.0470588235294118,255,0.9845559845559846,False,,113H;113HD;113HN;113YD;113YN,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,120,0.9529411764705882,0.0470588235294118,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,139,0.9529411764705882,0.0470588235294118,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,260,0.9545454545454546,0.0454545454545454,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,8,0.9563492063492064,0.0436507936507936,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,37,0.9575289575289576,0.0424710424710425,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,84,0.9575289575289576,0.0424710424710425,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,85,0.9575289575289576,0.0424710424710425,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,87,0.9575289575289576,0.0424710424710425,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,96,0.9575289575289576,0.0424710424710425,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,153,0.9607843137254902,0.0392156862745097,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,224,0.9611650485436892,0.0388349514563106,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,55,0.9613899613899614,0.0386100386100386,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,189,0.961904761904762,0.038095238095238,210,0.8108108108108109,False,,,,,,,,,sequence/eplet,,False
+class1,I,280,0.963157894736842,0.0368421052631579,190,0.7335907335907336,False,,,,,,,,,sequence/eplet,,False
+class1,I,230,0.9658536585365852,0.0341463414634146,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,181,0.967741935483871,0.032258064516129,248,0.9575289575289576,False,,,,,,,,,sequence/eplet,,False
+class1,I,142,0.9686274509803922,0.0313725490196078,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,157,0.9686274509803922,0.0313725490196078,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,218,0.970873786407767,0.0291262135922329,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,104,0.97265625,0.02734375,256,0.9884169884169884,False,,,,,,,,,sequence/eplet,,False
+class1,I,276,0.9746192893401016,0.0253807106598984,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,262,0.9747474747474748,0.0252525252525253,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,187,0.9761904761904762,0.0238095238095238,210,0.8108108108108109,False,,,,,,,,,sequence/eplet,,False
+class1,I,188,0.9761904761904762,0.0238095238095238,210,0.8108108108108109,False,,,,,,,,,sequence/eplet,,False
+class1,I,106,0.976470588235294,0.0235294117647059,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,112,0.976470588235294,0.0235294117647059,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,60,0.9767441860465116,0.0232558139534884,258,0.996138996138996,False,,,,,,,,,sequence/eplet,,False
+class1,I,47,0.9768339768339768,0.0231660231660231,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,18,0.98015873015873,0.0198412698412698,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,25,0.98015873015873,0.0198412698412698,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,141,0.9803921568627452,0.0196078431372549,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,209,0.9804878048780488,0.0195121951219512,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,61,0.9806201550387597,0.0193798449612403,258,0.996138996138996,False,,,,,,,,,sequence/eplet,,False
+class1,I,165,0.984189723320158,0.0158102766798419,253,0.9768339768339768,False,,,,,,,,,sequence/eplet,,False
+class1,I,29,0.9845559845559846,0.0154440154440154,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,269,0.984924623115578,0.015075376884422,199,0.7683397683397684,False,,,,,,,,,sequence/eplet,,False
+class1,I,243,0.9853658536585366,0.0146341463414634,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,13,0.988095238095238,0.0119047619047618,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,15,0.988095238095238,0.0119047619047618,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,128,0.9882352941176472,0.0117647058823529,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,130,0.9882352941176472,0.0117647058823529,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,132,0.9882352941176472,0.0117647058823529,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,31,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,36,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,40,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,48,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,51,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,86,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,88,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,92,0.9884169884169884,0.0115830115830115,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,201,0.9902439024390244,0.0097560975609756,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,175,0.9919354838709676,0.0080645161290322,248,0.9575289575289576,False,,,,,,,,,sequence/eplet,,False
+class1,I,179,0.9919354838709676,0.0080645161290322,248,0.9575289575289576,False,,,,,,,,,sequence/eplet,,False
+class1,I,3,0.992063492063492,0.0079365079365079,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,110,0.992156862745098,0.0078431372549019,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,133,0.992156862745098,0.0078431372549019,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,30,0.9922779922779924,0.0077220077220077,259,1.0,False,,30G,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,33,0.9922779922779924,0.0077220077220077,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,34,0.9922779922779924,0.0077220077220077,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,78,0.9922779922779924,0.0077220077220077,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,93,0.9922779922779924,0.0077220077220077,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,287,0.9949238578680204,0.0050761421319797,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class1,I,263,0.9949494949494948,0.005050505050505,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,272,0.9949494949494948,0.005050505050505,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,192,0.9951219512195122,0.0048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,206,0.9951219512195122,0.0048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,212,0.9951219512195122,0.0048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,213,0.9951219512195122,0.0048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,232,0.9951219512195122,0.0048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,242,0.9951219512195122,0.0048780487804878,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,221,0.9951456310679612,0.0048543689320388,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,4,0.996031746031746,0.0039682539682539,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,7,0.996031746031746,0.0039682539682539,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,26,0.996031746031746,0.0039682539682539,252,0.972972972972973,False,,,,,,,,,sequence/eplet,,False
+class1,I,164,0.9960629921259844,0.0039370078740157,254,0.9806949806949808,False,,,,,,,,,sequence/eplet,,False
+class1,I,118,0.996078431372549,0.0039215686274509,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,140,0.996078431372549,0.0039215686274509,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,100,0.99609375,0.00390625,256,0.9884169884169884,False,,,,,,,,,sequence/eplet,,False
+class1,I,64,0.996138996138996,0.0038610038610038,259,1.0,False,,,,,,,,,sequence/eplet,,False
+class1,I,101,1.0,0.0,256,0.9884169884169884,False,,,,,,,,,sequence/eplet,,False
+class1,I,115,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,119,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,122,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,123,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,126,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,129,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,134,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,135,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,146,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,154,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,159,1.0,0.0,255,0.9845559845559846,False,,,,,,,,,sequence/eplet,,False
+class1,I,160,1.0,0.0,254,0.9806949806949808,False,,,,,,,,,sequence/eplet,,False
+class1,I,168,1.0,0.0,251,0.9691119691119692,False,,,,,,,,,sequence/eplet,,False
+class1,I,171,1.0,0.0,249,0.9613899613899614,False,,,,,,,,,sequence/eplet,,False
+class1,I,172,1.0,0.0,249,0.9613899613899614,False,,,,,,,,,sequence/eplet,,False
+class1,I,185,1.0,0.0,210,0.8108108108108109,False,,,,,,,,,sequence/eplet,,False
+class1,I,190,1.0,0.0,210,0.8108108108108109,False,,,,,,,,,sequence/eplet,,False
+class1,I,196,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,200,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,202,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,203,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,204,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,205,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,207,1.0,0.0,205,0.7915057915057915,False,,207S,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,208,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,210,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,215,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,217,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,223,1.0,0.0,206,0.7953667953667953,False,,,,,,,,,sequence/eplet,,False
+class1,I,226,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,227,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,229,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,231,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,233,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,234,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,235,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,237,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,238,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,240,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,241,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,244,1.0,0.0,205,0.7915057915057915,False,,,,,,,,,sequence/eplet,,False
+class1,I,246,1.0,0.0,198,0.7644787644787645,False,,245AS,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class1,I,249,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,250,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,252,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,254,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,255,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,257,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,258,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,259,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,264,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,265,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,266,1.0,0.0,198,0.7644787644787645,False,,,,,,,,,sequence/eplet,,False
+class1,I,271,1.0,0.0,199,0.7683397683397684,False,,,,,,,,,sequence/eplet,,False
+class1,I,274,1.0,0.0,197,0.7606177606177607,False,,,,,,,,,sequence/eplet,,False
+class2,II,85,0.0476190476190476,0.9523809523809524,126,0.8344370860927153,True,DRB,85A;85V;85VV,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.541,6.922,3.891,8.5,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,87,0.1333333333333333,0.8666666666666667,120,0.7947019867549668,True,DQB,87F;87Y,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,4.765,13.396,6.951,64.55,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,96,0.1470588235294117,0.8529411764705882,68,0.4503311258278146,True,DRB,96EV;96H;96HK;96Q;96QN;96Y,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,19.908,25.0,10.205,116.95,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,140,0.2131147540983606,0.7868852459016393,61,0.4039735099337748,True,DRB,140A;140AV;140TV,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,21.134,75.0,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,37,0.2781456953642384,0.7218543046357616,151,1.0,True,DQB;DRB,37F;37FL;37FV;37L;37N;37S;37Y;37YA;37YV,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,86,0.3968253968253968,0.6031746031746033,126,0.8344370860927153,True,DQB;DRB,85VV;86A;86G;86V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.425,11.293,5.901,1.13,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,13,0.4569536423841059,0.543046357615894,151,1.0,True,DRB,11STS;13FE;13GM;13SE,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.346,8.847,2.905,0.63,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,84,0.4603174603174603,0.5396825396825398,126,0.8344370860927153,True,DQB,84QL,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,120,0.4677419354838709,0.532258064516129,62,0.4105960264900662,True,DRB,120N;120S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,74,0.4832214765100671,0.5167785234899329,149,0.9867549668874172,True,DQB;DRB,73GQ;74A;74E;74EL;74L;74R;74S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.342,7.073,9.248,0.0,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,149,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,True,DRB,149H;149Q,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,14.024,25.0,3.084,51.62,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,98,0.4852941176470588,0.5147058823529411,68,0.4503311258278146,True,DRB,98E;98ES;98K;98KN;98KS;98Q,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,24.885,25.0,4.437,120.16,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,185,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,True,DQB,185I;185T,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,14.35,83.33,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,31,0.5231788079470199,0.4768211920529801,151,1.0,True,DRB,31F;31FH;31FY;31I,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,125,0.5245901639344263,0.4754098360655737,61,0.4039735099337748,True,DQB,125G;125SQ,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,130,0.5245901639344263,0.4754098360655737,61,0.4039735099337748,True,DQB,130A;130Q;130R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,15.37,66.15,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,67,0.5503355704697986,0.4496644295302013,149,0.9867549668874172,True,DQB;DRB,67F;67I;67LQ;67VG;67VT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.326,4.002,11.038,0.13,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,135,0.6065573770491803,0.3934426229508196,61,0.4039735099337748,True,DQB,135D;135G,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,23.282,69.1,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,70,0.610738255033557,0.3892617449664429,149,0.9867549668874172,True,DQB;DRB,70D;70DA;70DR;70DRA;70GT;70Q;70QA;70QK;70QQ;70QRA;70QT;70R;70RE;70RT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.225,3.344,9.282,21.25,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,182,0.65,0.35,60,0.3973509933774834,True,DQB,182N;182S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,55,0.6577181208053692,0.3422818791946308,149,0.9867549668874172,True,DQB,55PP;55PPA;55PPD;55R;55RPD,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,38,0.6688741721854304,0.3311258278145695,151,1.0,True,DRB,37YV;38A;38L;38V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,60,0.6778523489932886,0.3221476510067114,149,0.9867549668874172,True,DRB,60Y,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,33,0.7019867549668874,0.2980132450331125,151,1.0,True,DRB,32YN;33N,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,46,0.7086092715231788,0.2913907284768212,151,1.0,True,DQB,46VY,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,9.66,12.679,14.651,60.67,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,57,0.7114093959731543,0.2885906040268456,149,0.9867549668874172,True,DQB;DRB,57A;57D;57DA;57DE;57S;57V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,3.046,9.926,2.45,0.45,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,47,0.7152317880794702,0.2847682119205298,151,1.0,True,DRB,47F;47KHL;47Y;47YR,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,66,0.7986577181208053,0.2013422818791946,149,0.9867549668874172,True,DQB,66D;66DR;66ER;66EV;66IL;66IT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,8.327,3.671,14.893,78.69,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,16,0.847682119205298,0.152317880794702,151,1.0,True,DRB,16H;16Y,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,104,0.873015873015873,0.1269841269841269,63,0.4172185430463576,True,DRB,104A;104AK,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,25.0,25.0,6.593,97.8,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,180,0.8833333333333333,0.1166666666666667,60,0.3973509933774834,True,DRB,180V;180VMP;180VTP,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,25,0.8940397350993378,0.1059602649006622,151,1.0,True,DRB,25FT;25Q;25R;25YT,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,52,0.913907284768212,0.086092715231788,151,1.0,True,DQB,52LL;52PQ;52SK,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,23,0.9271523178807948,0.0728476821192053,151,1.0,True,DQB,23L;23R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,73,0.9328859060402684,0.0671140939597315,149,0.9867549668874172,True,DRB,73A;73G;73GQ,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,77,0.9328859060402684,0.0671140939597315,149,0.9867549668874172,True,DQB;DRB,77N;77R;77T;77TY,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,4.245,3.731,9.441,24.8,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,32,0.9536423841059604,0.0463576158940397,151,1.0,True,DRB,31FH;31FY;32H;32Y;32YN,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,58,0.9731543624161074,0.0268456375838925,149,0.9867549668874172,True,DRB,57DA;58A;58AY,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,75,0.9731543624161074,0.0268456375838925,149,0.9867549668874172,True,DQB,75I;75IL;75S;75V,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,48,0.9801324503311258,0.0198675496688741,151,1.0,True,DRB,47YR;48Q,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,133,0.9836065573770492,0.0163934426229508,61,0.4039735099337748,True,DRB,133RS,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,142,0.9836065573770492,0.0163934426229508,61,0.4039735099337748,True,DRB,142M,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,56,0.9932885906040269,0.0067114093959731,149,0.9867549668874172,True,DQB,56L;56P;56PA;56PD;56PS,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,40,1.0,0.0,151,1.0,True,DRB,40E;40ERV;40F;40GR,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,45,1.0,0.0,151,1.0,True,DQB,45EV;45G;45GV,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,51,1.0,0.0,151,1.0,True,DRB,51R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,108,1.0,0.0,63,0.4172185430463576,True,DRB,108P;108T,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,112,1.0,0.0,63,0.4172185430463576,True,DRB,112H;112Y,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,116,1.0,0.0,62,0.4105960264900662,True,DQB,116I,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,167,1.0,0.0,60,0.3973509933774834,True,DQB,167H;167R,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,181,1.0,0.0,60,0.3973509933774834,True,DRB,181M;181T,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,189,1.0,0.0,60,0.3973509933774834,True,DRB,189R;189S,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,127,0.0,1.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,174,0.0,1.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,59,0.0067114093959731,0.9932885906040269,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,88,0.0084745762711864,0.9915254237288136,118,0.7814569536423841,False,,,,,,,,,sequence/eplet,,False
+class2,II,34,0.0264900662251655,0.9735099337748344,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,9,0.2318840579710145,0.7681159420289855,138,0.913907284768212,False,,9F;9Y,,3.639,10.306,2.889,1.76,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,203,0.2666666666666666,0.7333333333333334,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,10,0.4100719424460431,0.5899280575539568,139,0.9205298013245032,False,,,,,,,,,sequence/eplet,,False
+class2,II,92,0.4247787610619469,0.5752212389380531,113,0.7483443708609272,False,,,,,,,,,sequence/eplet,,False
+class2,II,90,0.4260869565217391,0.5739130434782609,115,0.7615894039735099,False,,,,,,,,,sequence/eplet,,False
+class2,II,126,0.4754098360655737,0.5245901639344263,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,139,0.4754098360655737,0.5245901639344263,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,158,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,166,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,184,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,197,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,200,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,213,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,214,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,215,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,222,0.4833333333333333,0.5166666666666666,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,95,0.4852941176470588,0.5147058823529411,68,0.4503311258278146,False,,,,,,,,,sequence/eplet,,False
+class2,II,155,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,157,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,164,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,165,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,178,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,218,0.5166666666666667,0.4833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,105,0.5238095238095238,0.4761904761904761,63,0.4172185430463576,False,,104AK,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,106,0.5238095238095238,0.4761904761904761,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,118,0.532258064516129,0.467741935483871,62,0.4105960264900662,False,,,,,,,,,sequence/eplet,,False
+class2,II,30,0.5364238410596026,0.4635761589403974,151,1.0,False,,30C;30D;30G;30H;30RV,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,80,0.549618320610687,0.4503816793893129,131,0.8675496688741722,False,,,,,,,,,sequence/eplet,,False
+class2,II,220,0.6,0.4,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,26,0.609271523178808,0.390728476821192,151,1.0,False,,26F;26L;26Y,,4.611,10.426,6.658,2.01,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,71,0.610738255033557,0.3892617449664429,149,0.9867549668874172,False,,70DR;70QK;71A;71E;71K;71R,,2.853,4.735,7.67,0.38,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,172,0.6166666666666667,0.3833333333333333,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,22,0.6291390728476821,0.3708609271523179,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,14,0.6490066225165563,0.3509933774834437,151,1.0,False,,13SE,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,18,0.6490066225165563,0.3509933774834437,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,11,0.6618705035971223,0.3381294964028777,139,0.9205298013245032,False,,11STS,,3.251,8.979,2.884,4.47,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,28,0.6622516556291391,0.3377483443708609,151,1.0,False,,28D;28H,,3.775,8.552,7.918,3.84,1FYT,sequence/eplet + structural,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,63,0.7315436241610739,0.2684563758389261,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,49,0.8145695364238411,0.1854304635761589,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,53,0.8389261744966443,0.1610738255033557,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,68,0.8456375838926175,0.1543624161073825,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,61,0.8523489932885906,0.1476510067114094,149,0.9867549668874172,False,,61FT,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,78,0.8625954198473282,0.1374045801526717,131,0.8675496688741722,False,,77TY;78Y,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,35,0.8874172185430463,0.1125827814569536,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,64,0.8926174496644296,0.1073825503355704,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,12,0.8940397350993378,0.1059602649006622,151,1.0,False,,11STS,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,44,0.8940397350993378,0.1059602649006622,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,29,0.9072847682119204,0.0927152317880795,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,27,0.9271523178807948,0.0728476821192053,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,19,0.9668874172185432,0.0331125827814569,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,24,0.9735099337748344,0.0264900662251655,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,43,0.9735099337748344,0.0264900662251655,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,89,0.9830508474576272,0.0169491525423728,118,0.7814569536423841,False,,,,,,,,,sequence/eplet,,False
+class2,II,156,0.9833333333333332,0.0166666666666667,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,223,0.9833333333333332,0.0166666666666667,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,109,0.984126984126984,0.0158730158730159,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,65,0.9865771812080536,0.0134228187919462,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,17,0.9867549668874172,0.0132450331125827,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,81,0.992063492063492,0.0079365079365079,126,0.8344370860927153,False,,,,,,,,,sequence/eplet,,False
+class2,II,82,0.992063492063492,0.0079365079365079,126,0.8344370860927153,False,,,,,,,,,sequence/eplet,,False
+class2,II,21,0.9933774834437086,0.0066225165562914,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,15,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,20,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,36,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,39,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,41,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,42,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,50,1.0,0.0,151,1.0,False,,,,,,,,,sequence/eplet,,False
+class2,II,54,1.0,0.0,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,62,1.0,0.0,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,69,1.0,0.0,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,72,1.0,0.0,149,0.9867549668874172,False,,,,,,,,,sequence/eplet,,False
+class2,II,76,1.0,0.0,149,0.9867549668874172,False,,76L;76V,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,79,1.0,0.0,131,0.8675496688741722,False,,,,,,,,,sequence/eplet,,False
+class2,II,83,1.0,0.0,126,0.8344370860927153,False,,,,,,,,,sequence/eplet,,False
+class2,II,91,1.0,0.0,113,0.7483443708609272,False,,,,,,,,,sequence/eplet,,False
+class2,II,93,1.0,0.0,111,0.7350993377483444,False,,,,,,,,,sequence/eplet,,False
+class2,II,94,1.0,0.0,97,0.6423841059602649,False,,,,,,,,,sequence/eplet,,False
+class2,II,97,1.0,0.0,68,0.4503311258278146,False,,,,,,,,,sequence/eplet,,False
+class2,II,99,1.0,0.0,68,0.4503311258278146,False,,,,,,,,,sequence/eplet,,False
+class2,II,100,1.0,0.0,68,0.4503311258278146,False,,,,,,,,,sequence/eplet,,False
+class2,II,101,1.0,0.0,66,0.4370860927152318,False,,,,,,,,,sequence/eplet,,False
+class2,II,102,1.0,0.0,66,0.4370860927152318,False,,,,,,,,,sequence/eplet,,False
+class2,II,103,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,107,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,110,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,111,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,113,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,114,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,115,1.0,0.0,63,0.4172185430463576,False,,,,,,,,,sequence/eplet,,False
+class2,II,117,1.0,0.0,62,0.4105960264900662,False,,,,,,,,,sequence/eplet,,False
+class2,II,119,1.0,0.0,62,0.4105960264900662,False,,,,,,,,,sequence/eplet,,False
+class2,II,121,1.0,0.0,62,0.4105960264900662,False,,,,,,,,,sequence/eplet,,False
+class2,II,122,1.0,0.0,62,0.4105960264900662,False,,,,,,,,,sequence/eplet,,False
+class2,II,123,1.0,0.0,62,0.4105960264900662,False,,,,,,,,,sequence/eplet,,False
+class2,II,124,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,128,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,129,1.0,0.0,61,0.4039735099337748,False,,129H;129QS,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,131,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,132,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,134,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,136,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,137,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,138,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,141,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,143,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,144,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,145,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,146,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,147,1.0,0.0,61,0.4039735099337748,False,,,,,,,,,sequence/eplet,,False
+class2,II,148,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,150,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,151,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,152,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,153,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,154,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,159,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,160,1.0,0.0,60,0.3973509933774834,False,,160A;160AD;160D;160S,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,161,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,162,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,163,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,168,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,169,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,170,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,171,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,173,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,175,1.0,0.0,60,0.3973509933774834,False,,175E,,,,,,,sequence/eplet,"HLA Eplet Registry export, indexed by registry group",True
+class2,II,176,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,177,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,179,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,183,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,186,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,187,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,188,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,190,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,191,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,192,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,193,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,194,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,195,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,196,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,198,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,199,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,201,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,202,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,204,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,205,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,206,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,207,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,208,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,209,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,210,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,211,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,212,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,216,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,217,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,219,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,221,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,224,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False
+class2,II,225,1.0,0.0,60,0.3973509933774834,False,,,,,,,,,sequence/eplet,,False

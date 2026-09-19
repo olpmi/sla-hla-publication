@@ -1,0 +1,7 @@
+true_locus,n_observations,n_unique_alleles,label_absent_from_every_partition
+DPB1,1959,1185,False
+DQB1,2076,1209,False
+DRB1,2884,1547,False
+DRB3,494,343,False
+DRB4,215,100,False
+DRB5,195,99,False

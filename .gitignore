@@ -1,0 +1,18 @@
+# Regenerated outputs. `make reproduce` rebuilds all of this.
+outputs/
+
+# Deposition staging: large archives built by scripts/stage_deposit.py.
+staging/
+
+# Locally supplied external inputs. The eplet position mask is derived from the
+# HLA Eplet Registry and is NOT redistributed by this repository; see
+# DATA_LICENSES.md. Anything here is the user's own licensed copy.
+data/local/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+build/
+dist/

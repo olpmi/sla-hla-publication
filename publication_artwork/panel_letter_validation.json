@@ -1,0 +1,275 @@
+[
+  {
+    "figure": "Figure1",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure1",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure1",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure2",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure2",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure2",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure2",
+    "panel": "D",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure2",
+    "panel": "E",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure2",
+    "panel": "F",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure3",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure3",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure3",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure3",
+    "panel": "D",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure4",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure4",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure5",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure5",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure5",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure5",
+    "panel": "D",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure5",
+    "panel": "E",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure5",
+    "panel": "F",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure6",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure6",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "Figure6",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS2",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS2",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS2",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS6",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS6",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS6",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS8",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS8",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS8",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS9",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS9",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS10",
+    "panel": "A",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS10",
+    "panel": "B",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS10",
+    "panel": "C",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  },
+  {
+    "figure": "FigureS10",
+    "panel": "D",
+    "weight": "normal",
+    "above_all_panel_content": true,
+    "left_of_all_panel_content": true
+  }
+]

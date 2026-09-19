@@ -1,0 +1,15 @@
+which,run_tag,seed,keep_checkpoint,dedup,split_strategy,cluster_threshold,status,val_accuracy,val_loss,minutes
+class1,armC_dedup_cluster,42,True,True,cluster,0.99,skipped,,,
+class2,armC_dedup_cluster,42,True,True,cluster,0.99,skipped,,,
+class1,armA_full_random,42,False,False,random,,skipped,,,
+class2,armA_full_random,42,False,False,random,,skipped,,,
+class1,armB_dedup_random,42,False,True,random,,skipped,,,
+class2,armB_dedup_random,42,False,True,random,,skipped,,,
+class1,armC_dedup_cluster_seed43,43,False,True,cluster,0.99,skipped,,,
+class2,armC_dedup_cluster_seed43,43,False,True,cluster,0.99,trained,0.9806701030927835,0.12373564911516595,47.2
+class1,armC_dedup_cluster_seed44,44,False,True,cluster,0.99,trained,0.8934256055363322,0.4681980456435041,75.5
+class2,armC_dedup_cluster_seed44,44,False,True,cluster,0.99,trained,0.9888888888888889,0.08199497513424338,46.8
+class1,armC_dedup_cluster_seed45,45,False,True,cluster,0.99,trained,0.8851890391952827,0.4676295685524685,75.6
+class2,armC_dedup_cluster_seed45,45,False,True,cluster,0.99,trained,0.9744866210329807,0.14192985099066321,46.6
+class1,armC_dedup_cluster_seed46,46,False,True,cluster,0.99,trained,0.9152723389106444,0.34557390665975635,75.8
+class2,armC_dedup_cluster_seed46,46,False,True,cluster,0.99,trained,0.9883720930232558,0.08840996507574499,46.8

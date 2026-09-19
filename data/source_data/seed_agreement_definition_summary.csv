@@ -1,0 +1,7 @@
+analysis,n,definition,n_5of5,frac_5of5,n_at_least_4,frac_at_least_4,n_at_most_2,frac_at_most_2
+class1,260,ensemble_argmax_votes,52,0.2,128,0.4923,56.0,0.2154
+class1,260,modal_seed_vote,52,0.2,128,0.4923,43.0,0.1654
+class1,260,(agreement between the two definitions),232,0.8923,43,,,
+class2,152,ensemble_argmax_votes,72,0.4737,110,0.7237,6.0,0.0395
+class2,152,modal_seed_vote,72,0.4737,110,0.7237,2.0,0.0132
+class2,152,(agreement between the two definitions),148,0.9737,1,,,

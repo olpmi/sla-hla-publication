@@ -1,0 +1,209 @@
+table,column,dtype,n_non_null,example,description
+S1,sla_allele,object,82,SLA-1*01:01,SLA allele as named in the pinned IPD-MHC release
+S1,sla_locus,object,82,SLA-1,SLA locus
+S1,mhc_class,object,82,I,MHC class of the SLA locus
+S1,haplotype,object,82,Hp-1a.1,the SLA haplotype this row is reported under
+S1,haplotypes,object,82,Hp-1a.1,every curated haplotype in which this allele occurs
+S1,herd,object,82,commercial,population or line the haplotype is described in
+S1,local_name,object,25,a,herd-local haplotype designation where one exists
+S1,n_ciwd_hits,int64,82,13219,number of CIWD 3.0 HLA alleles compared against
+S1,nearest_hla,object,79,C*12:02:15,highest-identity CIWD 3.0 HLA allele
+S1,nearest_identity,float64,79,76.1,percent amino-acid identity to the nearest HLA allele (DIAMOND)
+S1,nearest_category,object,79,C,CIWD 3.0 frequency category of the nearest allele
+S1,most_distant_hla,object,79,DQB1*06:103,lowest-identity CIWD 3.0 HLA allele with a reported alignment
+S1,most_distant_identity,float64,79,24.6,percent amino-acid identity to that allele
+S1,most_distant_category,object,79,WD,CIWD 3.0 frequency category of the most distant allele
+S1,data_availability_note,object,3,allele name absent from the pinned IPD-MHC release; see cohort_reconciliation.csv,"why no identity is reported, for the three rows without one"
+S2,analysis,object,10,class1,class1 or class2 classifier
+S2,seed,int64,10,42,random seed of this ensemble member (42-46)
+S2,n_train,int64,10,15053,training records for this member
+S2,n_val,int64,10,2791,held-out human validation records for this member
+S2,val_accuracy,float64,10,0.9262,held-out human HLA validation accuracy of this member
+S2,val_loss,float64,10,0.387,held-out validation cross-entropy of this member
+S2,starved_labels,object,5,C_Other,labels with no validation side under the cluster hold-out
+S2,device,object,10,cuda,hardware the member was trained on
+S2,arm,object,10,armC_dedup_cluster,training arm; armC_dedup_cluster is the canonical protocol
+S2,description,object,10,"one record per distinct protein sequence, 99%-identity clusters held out whole (CANONICAL)",what the arm does
+S2,dedup,bool,10,True,whether records sharing an identical protein sequence were collapsed
+S2,split_strategy,object,10,cluster,"random record split, or 99%-identity clusters held out whole"
+S2,n_records,int64,10,17844,records entering the split
+S2,n_distinct_sequences,int64,10,17844,distinct protein sequences among them
+S2,n_clusters_99,int64,10,1664,99%-identity clusters formed
+S2,n_train_split,int64,10,15053,training records in that seed's split
+S2,n_validation,int64,10,2791,validation records under this arm
+S2,actual_val_fraction,float64,10,0.1564,realised validation fraction
+S2,n_labels,int64,10,54,labels in the label space
+S2,labels_in_validation,int64,10,53,labels represented on the validation side
+S2,labels_absent_from_validation,object,5,C_Other,labels with no validation side
+S2,exact_sequence_val_share,float64,10,0.0,share of validation records whose exact protein sequence also appears in training
+S2,cluster_99_val_share,float64,10,0.0,share of validation records sharing a 99%-identity cluster with training
+S2,two_field_val_share,float64,10,0.042279,share of validation records sharing a two-field allele group with training
+S2,val_accuracy_mean,float64,10,0.9035,mean validation accuracy across the five members
+S2,val_accuracy_std,float64,10,0.0168,standard deviation across the five members
+S2,val_accuracy_min,float64,10,0.8852,lowest member accuracy
+S2,val_accuracy_max,float64,10,0.9262,highest member accuracy
+S3,analysis,object,14,class1,class1 or class2
+S3,scope,object,14,ALL,"ALL, or the HLA comparator locus the rows were restricted to"
+S3,reading,object,14,agree_gap_skip,agree_gap_skip (primary) or agree_gap_mismatch (sensitivity)
+S3,n_sla,int64,14,259,SLA proteins contributing
+S3,n_hla,int64,14,42,distinct HLA comparators
+S3,n_pairs,int64,14,259,"identity-defined (SLA, HLA) pairs"
+S3,n_eplet_positions,int64,14,61,aligned positions carrying a registry eplet
+S3,n_other_positions,int64,14,249,aligned positions not carrying one
+S3,n_eplet_observations,int64,14,14992,pair x position observations at eplet-associated positions
+S3,n_other_observations,int64,14,56379,pair x position observations elsewhere
+S3,eplet_mean,float64,14,0.5901,mean cross-species residue agreement at eplet-associated positions
+S3,other_mean,float64,14,0.7817,mean agreement at other positions
+S3,difference,float64,14,-0.1915,eplet_mean minus other_mean
+S3,boot_ci_low,float64,14,-0.1968,"lower 95% limit, resampling whole (SLA, HLA) pairs"
+S3,boot_ci_high,float64,14,-0.1869,upper 95% limit
+S3,n_bootstrap,int64,14,2000,bootstrap resamples
+S3,profile_difference,float64,14,-0.1783,"the same contrast on the per-locus mean profile, which the permutation shifts"
+S3,n_shifts,int64,14,10000,circular shifts of the eplet mask within each locus
+S3,n_shifts_at_least_as_extreme,int64,14,0,shifts reaching or exceeding the observed contrast
+S3,circular_shift_p,float64,14,9.999000099990002e-05,"Two-sided finite-permutation p-value: (n_shifts_at_least_as_extreme + 1)/(n_shifts + 1), recomputed from integer counts for consistent reporting."
+S3,circular_shift_p_reported,object,14,p < 1e-04,Formatted finite-permutation p-value; zero exceedances are reported as p < 1e-04.
+S3,p_estimator,object,14,(extreme + 1) / (shifts + 1); floor 1/(N+1),"the estimator, stated so the floor is explicit"
+S3,mannwhitney_p_descriptive,float64,14,0.0,"position-level Mann-Whitney; descriptive only, independence is violated"
+S3,max_pairs_per_hla,int64,14,151,largest number of SLA proteins sharing one HLA comparator
+S3,mean_pairs_per_hla,float64,14,6.17,mean number of SLA proteins per HLA comparator
+S3,primary_reading,bool,14,True,whether this row is the primary analysis
+S4a,record_level,object,23,individual model,this sheet describes one modelled chain per row
+S4a,allele,object,23,A*02:01,allele the model was built for
+S4a,system,object,23,HLA,HLA or SLA
+S4a,mhc_class,object,23,class1,class1 or class2
+S4a,model,object,23,HLA_A02_A_02_01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb,model filename
+S4a,predictor,object,23,"ColabFold (AlphaFold2, monomer)",structure predictor and settings used
+S4a,n_residues,int64,23,308,residues in the modelled chain
+S4a,plddt_mean,float64,23,92.1,mean pLDDT over the modelled chain
+S4a,plddt_median,float64,23,95.9,median pLDDT
+S4a,plddt_min,float64,23,39.5,minimum pLDDT
+S4a,pct_ge_70,float64,23,95.1,fraction of residues with pLDDT at or above 70
+S4a,pct_ge_90,float64,23,82.1,fraction at or above 90
+S4a,groove_plddt_mean,float64,23,95.4,mean pLDDT over the peptide-binding platform
+S4a,groove_n,int64,23,180,residues in the platform selection
+S4a,rest_plddt_mean,float64,23,94.3,mean pLDDT outside the platform
+S4a,rest_n,int64,23,93,residues outside the platform
+S4a,unmapped_plddt_mean,float64,23,69.7,mean pLDDT over residues with no counterpart in the experimental reference
+S4a,unmapped_n,int64,23,35,how many such residues
+S4a,reference_pdb,object,23,1HHK,PDB entry used as the experimental reference
+S4a,reference_chain,object,23,A,chain within that entry
+S4a,reference_description,object,23,HLA-A*02:01 with beta-2-microglobulin and the HTLV-1 Tax nonamer,what the reference structure is
+S4a,omitted_from_model,object,23,beta-2-microglobulin (chain B) and peptide (chain C),chains and ligands present in the reference but absent from the single-chain prediction
+S4a,rmsd_ce,float64,23,1.028,whole-chain Ca CE RMSD of the model against the experimental reference
+S4a,groove_rmsd,float64,23,0.717,the same restricted to the peptide-binding platform
+S4a,groove_n_aligned,int64,23,176,aligned Ca pairs in the platform
+S4a,rest_rmsd,float64,23,0.699,the same outside the platform
+S4a,rest_n_aligned,int64,23,88,aligned Ca pairs outside the platform
+S4a,n_aligned,int64,23,272,aligned Ca pairs over the whole chain
+S4a,n_model,int64,23,308,Ca atoms in the model
+S4a,n_reference,int64,23,275,Ca atoms in the reference chain
+S4a,n_mapped,int64,23,273,model residues with a reference counterpart
+S4a,n_unmapped,int64,23,35,model residues without one
+S4a,coverage_model,float64,23,0.886,aligned pairs over the model's Ca count
+S4a,coverage_reference,float64,23,0.993,aligned pairs over the reference's Ca count
+S4a,mapped_plddt_mean,float64,23,95.0,mean pLDDT over residues that do map to the reference
+S4b,record_level,object,10,model pair,this sheet describes one superposed HLA/SLA model pair per row
+S4b,final_figure,object,10,Figure 5,figure number in the revised manuscript
+S4b,panel,object,10,A,panel letter
+S4b,panel_name,object,10,class1_A,"internal panel identifier, class<1|2>_<letter>"
+S4b,mhc_class,object,10,class1,class1 or class2
+S4b,hla_allele_in_model,object,10,A*02:01,HLA allele the model file actually contains
+S4b,sla_allele_in_model,object,10,SLA-1*02:01,SLA allele the model file actually contains
+S4b,hla_allele_in_legend,object,10,A*02:01,HLA allele named in the published legend
+S4b,allele_match,object,10,exact,whether the model and the legend agree
+S4b,rmsd_reported_in_manuscript,float64,10,2.8,the value printed in the submitted manuscript
+S4b,hla_model_file,object,10,HLA_A02_A_02_01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb,HLA model filename
+S4b,sla_model_file,object,10,SLA_A02_SLA-1_02_01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb,SLA model filename
+S4b,hla_model_sha256,object,10,4920cc35c6e80211ee849e4c6cf6978817e80838ec5300672a23ceedaf6c5f86,SHA-256 of the HLA model file
+S4b,sla_model_sha256,object,10,df3003498316e110120830a97b76255539e83245a80017850cadba34e131b7f1,SHA-256 of the SLA model file
+S4b,hla_modelled_residue_range,object,10,1-308,residue range present in the HLA model
+S4b,sla_modelled_residue_range,object,10,1-305,residue range present in the SLA model
+S4b,n_hla_CA,int64,10,308,Ca atoms in the HLA chain
+S4b,n_sla_CA,int64,10,305,Ca atoms in the SLA chain
+S4b,n_hla_atoms,int64,10,2486,all atoms in the HLA chain
+S4b,n_sla_atoms,int64,10,2443,all atoms in the SLA chain
+S4b,predictor,object,10,"ColabFold (AlphaFold2, monomer, rank_001)",structure predictor and settings used
+S4b,rmsd_cealign_CA,float64,10,2.681,"CE structural alignment, Ca only, whole modelled chain, no outlier rejection"
+S4b,n_aligned_CA_pairs,int64,10,304,Ca pairs in the CE alignment (UNIT: Ca atoms)
+S4b,coverage_of_hla_chain_CA,float64,10,0.987,aligned Ca pairs / total Ca of the whole modelled HLA chain A
+S4b,coverage_of_sla_chain_CA,float64,10,0.9967,aligned Ca pairs / total Ca of the whole modelled SLA chain A
+S4b,rmsd_super_all_atom,float64,10,0.55,"cmd.super, all atoms, 5 refinement cycles, 2.0 A cutoff"
+S4b,n_super_ATOMS,int64,10,1751,"atoms retained by super after refinement (UNIT: all atoms, NOT Ca)"
+S4b,n_super_cycles,int64,10,5,"refinement cycles used by cmd.super, for the comparison only"
+S4b,super_outlier_cutoff_A,float64,10,2.0,"outlier rejection cutoff used by cmd.super, for the comparison only"
+S4b,coverage_of_sla_chain_ATOMS,float64,10,0.7167,atoms aligned by cmd.super over the SLA chain's atom count
+S4b,rmsd_align_CA,float64,10,0.574,"cmd.align, sequence-dependent, Ca, 5 cycles, 2.0 A cutoff"
+S4b,n_align_ATOMS,int64,10,1820,"atoms aligned by cmd.align, for the comparison only"
+S4b,align_raw_rmsd_before_refinement,float64,10,3.034,"cmd.align RMSD before refinement, for the comparison only"
+S4b,n_align_residues_aligned,int64,10,304,residues aligned by cmd.align
+S4b,rmsd_groove_cealign_CA,float64,9,0.646,Ca CE RMSD restricted to the peptide-binding platform
+S4b,n_groove_aligned_CA_pairs,float64,9,176.0,aligned Ca pairs in the platform
+S4b,n_groove_residues_selected_hla,float64,9,180.0,platform residues selected on the HLA chain
+S4b,n_groove_residues_selected_sla,float64,9,180.0,platform residues selected on the SLA chain
+S4b,rmsd_rest_cealign_CA,float64,9,0.804,Ca CE RMSD outside the platform
+S4b,n_rest_aligned_CA_pairs,float64,9,88.0,aligned Ca pairs outside the platform
+S4b,n_rest_residues_selected_hla,float64,9,93.0,non-platform residues selected on the HLA chain
+S4b,n_rest_residues_selected_sla,float64,9,93.0,non-platform residues selected on the SLA chain
+S4b,delta_cealign_minus_reported,float64,10,-0.119,adopted CE value minus the value printed in the submitted figure
+S4b,delta_super_minus_reported,float64,10,-2.25,"cmd.super value minus the printed value; shown because 5A's printed 2.7 A corresponds to this, not to the CE value the legend claims"
+S4b,delta_align_minus_reported,float64,10,-2.226,cmd.align value minus the printed value
+S4b,percent_identity_over_shared_positions,float64,10,71.71,MAFFT identity between the two modelled sequences
+S4b,n_positions_both_present,int64,10,304,positions at which both chains have a residue
+S5,figure,int64,148,5,Current main-figure number (5 for class I; 6 for class II).
+S5,panel,object,148,class1_A,Unique structural panel identifier; class1_A–F or class2_A–C.
+S5,canonical_residue_number,float64,148,41.0,Canonical mature-chain coordinate mapped to the experimental human reference; not a model PDB index.
+S5,label,object,148,P/A41,"Displayed SLA/HLA residue letters and canonical mature-chain coordinate, checked against the loaded models."
+S5,selection_reason,object,148,top eight reference assembled SASA,"Display criterion: one of eight highest assembled-reference SASA values among eligible eplet-associated substitutions, or an additional contact example."
+S5,system,object,148,HLA,HLA or SLA side of the pair
+S5,allele,object,148,A*02:01,allele of that side
+S5,residue,object,148,A,residue at this position in that model
+S5,locus,object,148,A,locus of the allele on this row
+S5,model_resi,int64,148,39,residue index in the deposited model file
+S5,reference_resi,float64,148,41.0,Residue number in the experimental human reference used for annotation.
+S5,eplet_names,object,148,41T,HLA Eplet Registry eplets defined at this canonical position
+S5,n_eplets,int64,148,1,how many
+S5,eplet_defining,bool,148,True,whether the position is named by an eplet
+S5,reference_pdb,object,148,1AO7,experimental complex the contact and accessibility values are read from
+S5,reference_allele,object,148,A*02:01,allele solved in that complex
+S5,reference_is_same_allele,bool,148,True,whether that complex is the same allele as the model
+S5,reference_is_same_species,bool,148,True,whether the complex is human; all contact and SASA values are human
+S5,reference_caveat,object,148,exact for panel A; a different class I allele for the others,how closely the human experimental reference structure matches this panel's allele; 'exact' only where the same allele was solved
+S5,has_experimental_reference,bool,148,True,TRUE where a human experimental structure was available to transfer annotations from. Every contact and accessibility value in this table is TRANSFERRED from that human structure onto the aligned position; none is measured on the predicted SLA or HLA model
+S5,d_peptide,float64,148,16.576,"closest heavy-atom distance to the bound peptide, in the experimental complex"
+S5,peptide_contact_4A,bool,148,False,whether that distance is within 4.0 A
+S5,peptide_contact_5A,bool,148,False,the same at a 5 A cutoff
+S5,d_partner,float64,148,10.408,closest heavy-atom distance to the partner chain the model omits
+S5,partner_contact_4A,bool,148,False,"TRUE where the aligned residue lies within 4 A of the partner chain (beta-2-microglobulin for class I, the alpha chain for class II) in the human reference. Transferred"
+S5,partner_contact_5A,bool,148,False,the same at a 5 A cutoff
+S5,d_tcr,float64,148,16.466,closest heavy-atom distance to the T-cell receptor in a peptide-bound complex
+S5,tcr_contact_4A,bool,148,False,TRUE where the aligned residue lies within 4 A of the T-cell receptor in the human reference. Transferred
+S5,tcr_contact_5A,bool,148,False,the same at a 5 A cutoff
+S5,sasa_isolated,float64,148,103.6,solvent-accessible surface area of the residue in the isolated chain
+S5,sasa_assembled,float64,148,103.6,the same residue in the assembled complex
+S5,sasa_buried_on_assembly,float64,148,0.0,isolated minus assembled
+S5,exposure_class,object,148,exposed,"solvent-exposure category derived from the transferred SASA values, not from the predicted model"
+S5,substituted,bool,148,True,True when loaded SLA and HLA model residue letters differ at this mapped position.
+S5,canonical_pair_mapping_agrees,bool,148,True,Both HLA and SLA model residues map to the same canonical reference coordinate; required for the display candidate set.
+S5,d_peptide_is_sentinel_not_measured,bool,148,False,
+S5,d_partner_is_sentinel_not_measured,bool,148,False,
+S5,d_tcr_is_sentinel_not_measured,bool,148,False,
+S6,analysis,object,527,class1,class1 or class2
+S6,mhc_class,object,527,I,MHC class
+S6,position,int64,527,194,mature-protein registry position
+S6,mean_agreement,float64,527,0.0,mean cross-species residue agreement at this position
+S6,divergence,float64,527,1.0,1 minus mean agreement
+S6,n_pairs_covering,int64,527,205,identity-defined pairs covering the position
+S6,coverage,float64,527,0.7915057915057915,share of pairs covering it
+S6,is_eplet_associated,bool,527,True,whether the HLA Eplet Registry defines an eplet here
+S6,eplet_loci_defining,object,113,A;B;C,HLA loci whose registry entries define an eplet at this position (this is what the column previously and misleadingly named eplet_names actually contained)
+S6,eplet_names,object,153,193AV;193PI;193PV;194V,the registry eplet names themselves
+S6,eplet_analysis_support,object,113,eplet-associated position; class-level contrast reported in revised_eplet_statistics.csv,which eplet analysis supports the row
+S6,d_peptide,float64,56,25.0,closest heavy-atom distance to bound peptide in the reference complex
+S6,d_tcr,float64,56,25.0,closest heavy-atom distance to the T-cell receptor
+S6,d_partner,float64,56,10.817,closest heavy-atom distance to the omitted partner chain
+S6,sasa_assembled,float64,56,104.17,solvent-accessible surface area in the assembled complex
+S6,reference_pdb,object,56,1AO7,the experimental complex those values come from
+S6,evidence_streams,object,527,sequence/eplet + structural,"which independent evidence streams flag this position; deliberately a list, not a score"
+S6,eplet_name_source,object,153,"HLA Eplet Registry export, indexed by registry group",
+S6,eplet_named_in_registry_group_mask,bool,527,True,

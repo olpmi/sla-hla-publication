@@ -1,0 +1,7 @@
+analysis,rung,description,records,n_train,n_val,val_fraction,groups,labels_with_val,labels,starved_labels,exact_sequence,two_field,aligned_identical,nn_median,nn_ge_099,nn_ge_095,nn_min,n_scored
+class1,rung1_full_random,"submitted protocol: every record, random split",28266,22612,5654,0.2,,54,54,,0.3831,0.4144,0.5301,1.0,0.9887,1.0,0.9724,5654
+class1,rung2_dedup_random,"one record per protein sequence, random split",17844,14275,3569,0.2,,54,54,,0.0,0.0658,0.2323,0.9972,0.9776,1.0,0.9613,3569
+class1,rung3_dedup_cluster,"one record per sequence, 99%-identity clusters held out whole",17844,15053,2791,0.1564,1664,53,54,C_Other,0.0,0.0423,0.0634,0.9945,0.7195,0.9968,0.937,2791
+class2,rung1_full_random,"submitted protocol: every record, random split",11077,8861,2216,0.2001,,21,22,,0.3515,0.394,0.5767,1.0,0.7712,1.0,0.9663,2216
+class2,rung2_dedup_random,"one record per protein sequence, random split",7567,6053,1514,0.2001,,21,22,,0.0,0.0938,0.3481,0.9955,0.6816,1.0,0.9655,1514
+class2,rung3_dedup_cluster,"one record per sequence, 99%-identity clusters held out whole",7567,5981,1586,0.2096,3183,21,22,,0.0,0.0441,0.0952,0.9888,0.3071,1.0,0.9551,1586

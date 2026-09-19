@@ -1,0 +1,25 @@
+# Optional: recompute Tables S4a and S4b from the deposited model files.
+#
+# Adds PyMOL, which provides cealign / super / align: the published structural
+# quantities are defined by those three algorithms, so this environment is
+# required to reproduce them rather than merely reformat them.
+#
+# Adds MAFFT, which supplies Table S4b's two sequence-identity columns
+# (percent_identity_over_shared_positions and n_positions_both_present). Without
+# MAFFT those two fall back to the approved values and the provenance record says
+# so; every other column is still recomputed.
+name: slahla-pub-structures
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib-base
+  - pillow
+  - pyarrow
+  - openpyxl
+  - pyyaml
+  - pytest
+  - pymol-open-source>=3.0
+  - mafft>=7.5

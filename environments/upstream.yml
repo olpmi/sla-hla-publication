@@ -1,0 +1,24 @@
+# Optional: rerun the upstream stages (sequence processing, classifier training,
+# structure prediction inputs). Not needed to reproduce the published results.
+#
+# Classifier training additionally needs an NVIDIA GPU and PyTorch built for it;
+# see REPRODUCIBILITY.md for the exact versions the published runs used and for
+# why retraining cannot reproduce the archived checkpoints bit for bit.
+name: slahla-pub-upstream
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib-base
+  - pyarrow
+  - openpyxl
+  - pyyaml
+  - biopython
+  - bioconda::diamond>=2.1.9     # all-vs-all protein alignment
+  - conda-forge::mafft>=7.5      # SLA -> HLA registry-coordinate projection
+  - scikit-learn
+  - pip
+  - pip:
+      - transformers>=4.40

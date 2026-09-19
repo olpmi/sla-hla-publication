@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slahla-pub"
+version = "1.0.0"
+description = "Reproduction package for the comparative HLA/SLA MHC manuscript"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+    "pillow>=10.0",
+    "pyarrow>=14.0",
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Recomputing Tables S4a/S4b from the deposited model files needs PyMOL, which
+# is not installable from PyPI; use environments/structures.yml instead.
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["structures: needs PyMOL and the deposited model files"]

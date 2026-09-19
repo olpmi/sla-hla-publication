@@ -1,0 +1,36 @@
+# Settings for the optional upstream reruns. Recorded so the published runs are
+# described exactly; nothing in `make reproduce` reads this file.
+classifier:
+  model_name: Rostlab/prot_bert_bfd
+  max_length: 512            # class I; class II used 512 as well in the canonical arm
+  epochs: 5
+  batch_size: 8
+  grad_accum: 1
+  learning_rate: 1.0e-5
+  weight_decay: 0.01
+  step_size: 3
+  gamma: 0.1
+  val_fraction: 0.2
+  mask_lead: 1
+  mask_tail: 1
+  dedup: true
+  split_strategy: cluster
+  cluster_threshold: 0.99
+  arm: armC_dedup_cluster
+  seeds: [42, 43, 44, 45, 46]
+  checkpoint_selection: final epoch (no early stopping; no best-epoch selection)
+  device: cuda
+
+sequences:
+  imgt_hla_release: v3.65.0-alpha
+  diamond_evalue: 1.0e-3
+  hla_query_sample: 3000     # sampled without replacement, numpy default_rng seed 0
+  hla_query_sample_seed: 0
+
+structures:
+  predictor: ColabFold (AlphaFold2, monomer)
+  model_rank: rank_001
+  note: >
+    The submitted Methods named the AlphaFold 3 Server; the models actually used
+    are ColabFold over AlphaFold2. A ColabFold monomer job is one chain, so the
+    class I models carry no beta-2-microglobulin and no peptide.

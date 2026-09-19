@@ -1,0 +1,11 @@
+figure,hla_comparator_locus,is_eplet_associated,n_positions,mean_agreement_gaps_excluded,mean_coverage
+S13,DQB1,False,165,0.8585,0.6959
+S13,DQB1,True,52,0.6954,0.8298
+S13,DRB1,False,165,0.84,0.5171
+S13,DRB1,True,52,0.7298,0.7162
+S8,A,False,249,0.7775,0.5915
+S8,A,True,61,0.5818,0.81
+S8,B,False,248,0.7676,0.6457
+S8,B,True,61,0.606,0.8411
+S8,C,False,248,0.7695,0.9504
+S8,C,True,61,0.592,0.9834

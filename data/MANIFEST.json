@@ -1,0 +1,434 @@
+{
+  "align_A": {
+    "bytes": 5079730,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/A_prot.txt",
+    "retrieved": "2026-08-04T15:35:31.497671+00:00",
+    "sha256": "80e91608a61371fd2f8a846d4c41e936b473bc718ca74c195a0c36f52e17910a",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/A_prot.txt"
+  },
+  "align_B": {
+    "bytes": 6124915,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/B_prot.txt",
+    "retrieved": "2026-08-04T15:35:32.038338+00:00",
+    "sha256": "6e4fc4ae007f6b45d91b66795d5e68830e13eb5d9007f55b1bfd0b8def6f0de8",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/B_prot.txt"
+  },
+  "align_C": {
+    "bytes": 5266671,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/C_prot.txt",
+    "retrieved": "2026-08-04T15:35:32.412861+00:00",
+    "sha256": "6fcb01cbae3cce0b0ee2ffd40330c9abf4238da7929256b80a3e9c5de3451cf1",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/C_prot.txt"
+  },
+  "align_DMA": {
+    "bytes": 38261,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DMA_prot.txt",
+    "retrieved": "2026-08-04T15:35:34.425709+00:00",
+    "sha256": "a3232da79450adb710f13d69f25431f033bc41f7028846c35050798a49414349",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DMA_prot.txt"
+  },
+  "align_DMB": {
+    "bytes": 59184,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DMB_prot.txt",
+    "retrieved": "2026-08-04T15:35:34.598513+00:00",
+    "sha256": "eb73da34c8dd097b81b14c5e243256eae0d9c074698efba98b04940c98690a1e",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DMB_prot.txt"
+  },
+  "align_DOA": {
+    "bytes": 58748,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DOA_prot.txt",
+    "retrieved": "2026-08-04T15:35:34.723178+00:00",
+    "sha256": "2441bce039cbb77e13365f36511a2c60e3918826b17d9450148969e9d24cb612",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DOA_prot.txt"
+  },
+  "align_DOB": {
+    "bytes": 46418,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DOB_prot.txt",
+    "retrieved": "2026-08-04T15:35:34.870153+00:00",
+    "sha256": "78bca5bfcd4da88c6f95b2dc00aa76ea8efa9ac65158243a640fddaeb987ce5c",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DOB_prot.txt"
+  },
+  "align_DPA1": {
+    "bytes": 345006,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DPA1_prot.txt",
+    "retrieved": "2026-08-04T15:35:34.278298+00:00",
+    "sha256": "8c5054f4e51fc5ecb6cae8510f7f9238299945e110fddf0430bb52d6ee20d9d2",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DPA1_prot.txt"
+  },
+  "align_DPB1": {
+    "bytes": 1158040,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DPB1_prot.txt",
+    "retrieved": "2026-08-04T15:35:33.674257+00:00",
+    "sha256": "9dbe045ccf163294b1d58f861dba434019a27f86bb50093a4ec095600609ef33",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DPB1_prot.txt"
+  },
+  "align_DQA1": {
+    "bytes": 368915,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DQA1_prot.txt",
+    "retrieved": "2026-08-04T15:35:33.868830+00:00",
+    "sha256": "4a2cffc42fbbc481fbb222c2de36039ee29c13ee4ffe69f849dca9a708d6b119",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DQA1_prot.txt"
+  },
+  "align_DQB1": {
+    "bytes": 1148236,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DQB1_prot.txt",
+    "retrieved": "2026-08-04T15:35:33.492272+00:00",
+    "sha256": "cabe17f37e506f1aa390078d85bf8e3b2c95f879f3e9bf03c79bab0033596507",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DQB1_prot.txt"
+  },
+  "align_DRA": {
+    "bytes": 45652,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DRA_prot.txt",
+    "retrieved": "2026-08-04T15:35:34.074534+00:00",
+    "sha256": "630323c0735f08a067174c2412a34d5556fbeb6de27744cc1d890f4d51ab8161",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DRA_prot.txt"
+  },
+  "align_DRB1": {
+    "bytes": 1437763,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DRB1_prot.txt",
+    "retrieved": "2026-08-04T15:35:32.642792+00:00",
+    "sha256": "3da82b93bbfdcec97080092992132380bd7ede0c3acee9a3cc397c84d1ae26b4",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DRB1_prot.txt"
+  },
+  "align_DRB3": {
+    "bytes": 275954,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DRB3_prot.txt",
+    "retrieved": "2026-08-04T15:35:32.902026+00:00",
+    "sha256": "0f1e9a825f9d2f8758672fc0f0742e51d3efc2e322863f128ec5d4c3d09c461b",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DRB3_prot.txt"
+  },
+  "align_DRB4": {
+    "bytes": 121820,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DRB4_prot.txt",
+    "retrieved": "2026-08-04T15:35:33.102776+00:00",
+    "sha256": "b2e157283cea49fb1c5daec95c25f3cb2f71eb5ee647cc7276014f5b8142255f",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DRB4_prot.txt"
+  },
+  "align_DRB5": {
+    "bytes": 92654,
+    "note": "IMGT protein alignment (mature-protein numbering)",
+    "path": "data/raw/alignments/DRB5_prot.txt",
+    "retrieved": "2026-08-04T15:35:33.254250+00:00",
+    "sha256": "e5dcb05aa5869eca574607bcf448e5c10d592133b6dcfa710b6e380e5bd690a0",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/alignments/DRB5_prot.txt"
+  },
+  "ciwd_A": {
+    "bytes": 539157,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-A.xlsx",
+    "retrieved": "2026-08-04T15:35:35.763825+00:00",
+    "sha256": "feaebf3a255bf42663b673c2ad2dd46abb2e168c95ef3b84ad71722b73e56dce",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-A_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_B": {
+    "bytes": 683953,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-B.xlsx",
+    "retrieved": "2026-08-04T15:35:36.730170+00:00",
+    "sha256": "0ce609d87fae851de4233a1195ee4209029766ae35c3b90905990714e938a7e9",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-B_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_C": {
+    "bytes": 509498,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-C.xlsx",
+    "retrieved": "2026-08-04T15:35:37.602550+00:00",
+    "sha256": "4adb0fe2e7606913391bb430dfb94abbb5c7e1c7e9066c366fb3dc082794b3b6",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-C_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_DPB1": {
+    "bytes": 201705,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-DPB1.xlsx",
+    "retrieved": "2026-08-04T15:35:38.357567+00:00",
+    "sha256": "4d680f730b19033a2841effbcbe8e56c160da207c1206d684bd7875e8859784a",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-DPB1_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_DQB1": {
+    "bytes": 198057,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-DQB1.xlsx",
+    "retrieved": "2026-08-04T15:35:39.108882+00:00",
+    "sha256": "e84f193a93f8c6fe92912b1638c4f148c64f9ec76174a75f992d647ed03e938a",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-DQB1_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_DRB1": {
+    "bytes": 343243,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-DRB1.xlsx",
+    "retrieved": "2026-08-04T15:35:39.842264+00:00",
+    "sha256": "754ec4202f1371015a19df956ef3ab86a6a9654468c3596ab3e7f1adee5a1f98",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-DRB1_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_DRB3": {
+    "bytes": 40210,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-DRB3.xlsx",
+    "retrieved": "2026-08-04T15:35:40.325914+00:00",
+    "sha256": "a3c5ae1fcf527a8ea7154c2d3af1683a95035bfeb4a018884ce64e012f111da0",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-DRB3_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_DRB4": {
+    "bytes": 32106,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-DRB4.xlsx",
+    "retrieved": "2026-08-04T15:35:40.832245+00:00",
+    "sha256": "821361815f3043f47001ab92e4ab6800de32627be355eeb2c1c3510199e46b0c",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-DRB4_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_DRB5": {
+    "bytes": 31299,
+    "note": "CIWD 3.0.0 primary data (18th IHIW)",
+    "path": "data/raw/ciwd3/HLA-DRB5.xlsx",
+    "retrieved": "2026-08-04T15:35:41.319013+00:00",
+    "sha256": "1c31e2403081923b1727829b4e332cf640aac51e2f066d137148052a3e2e5a10",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/HLA-DRB5_PrimaryData-IHWS-20200320.xlsx"
+  },
+  "ciwd_ciwd3_g_groups.xlsx": {
+    "bytes": 287991,
+    "note": "CIWD 3.0.0 supplementary workbook",
+    "path": "data/raw/ciwd3/ciwd3_g_groups.xlsx",
+    "retrieved": "2026-08-04T15:35:43.294523+00:00",
+    "sha256": "ce8603cb387ed42f92b6c09f5b01e68553ad68a56e7a2d6a00386575f3a0932f",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/SupTbl5Rev-Ggroup-CIWD-20200323_ihws-website.xlsx"
+  },
+  "ciwd_ciwd3_null_all_loci.xlsx": {
+    "bytes": 57736,
+    "note": "CIWD 3.0.0 supplementary workbook",
+    "path": "data/raw/ciwd3/ciwd3_null_all_loci.xlsx",
+    "retrieved": "2026-08-04T15:35:41.814571+00:00",
+    "sha256": "d38c34cceb31ace88414270cc7b6f125c970cf305dad9c18e2a677d8553ff395",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/CIWD_20200320-null-all_loci-ihws-web.xlsx"
+  },
+  "ciwd_ciwd3_p_alleles.xlsx": {
+    "bytes": 287110,
+    "note": "CIWD 3.0.0 supplementary workbook",
+    "path": "data/raw/ciwd3/ciwd3_p_alleles.xlsx",
+    "retrieved": "2026-08-04T15:35:42.549315+00:00",
+    "sha256": "21ab36675eb43ff3fee3c44bae6bdb60611f7c668650de2edbc5366528ff6599",
+    "url": "https://s3.eu-central-1.amazonaws.com/ihiw.website.data/CIWD-3.0/CIWD_Palleles-all_loci-2020320-ihws-website.xlsx"
+  },
+  "epregistry_ABC": {
+    "bytes": 1101544,
+    "note": "HLA Eplet Registry database page. Research use only; redistribution prohibited by the registry's terms, so the parsed tables are gitignored.",
+    "path": "data/raw/epregistry/ABC.html",
+    "retrieved": "2026-08-05T15:56:29.301375+00:00",
+    "sha256": "24e160389c594688451934abf3d5169a304ac920a0d1c7bc11d9625acaeb1b5d",
+    "url": "https://www.epregistry.com.br/databases/ABC"
+  },
+  "epregistry_DP": {
+    "bytes": 232963,
+    "note": "HLA Eplet Registry database page. Research use only; redistribution prohibited by the registry's terms, so the parsed tables are gitignored.",
+    "path": "data/raw/epregistry/DP.html",
+    "retrieved": "2026-08-05T15:56:33.707184+00:00",
+    "sha256": "0d866ae1d0150b97f1eb656d39b19e403e89a62ec79b47e649563553e89b2936",
+    "url": "https://www.epregistry.com.br/databases/DP"
+  },
+  "epregistry_DQ": {
+    "bytes": 289113,
+    "note": "HLA Eplet Registry database page. Research use only; redistribution prohibited by the registry's terms, so the parsed tables are gitignored.",
+    "path": "data/raw/epregistry/DQ.html",
+    "retrieved": "2026-08-05T15:56:32.353325+00:00",
+    "sha256": "49704cc9cc53c8e98b2965b2d73635c031b5d669964afa108dc475d06b27ce7d",
+    "url": "https://www.epregistry.com.br/databases/DQ"
+  },
+  "epregistry_DRB": {
+    "bytes": 539849,
+    "note": "HLA Eplet Registry database page. Research use only; redistribution prohibited by the registry's terms, so the parsed tables are gitignored.",
+    "path": "data/raw/epregistry/DRB.html",
+    "retrieved": "2026-08-05T15:56:30.971167+00:00",
+    "sha256": "08786d9b7d56985742d687fceddd161f6c32be4ff1d85f071f779de22606d569",
+    "url": "https://www.epregistry.com.br/databases/DRB"
+  },
+  "hla_allele_status": {
+    "bytes": 2098543,
+    "note": "full/partial sequence status per allele",
+    "path": "data/raw/Allele_status.txt",
+    "retrieved": "2026-08-04T15:35:28.405287+00:00",
+    "sha256": "903640b12aa150ce5cfeb8f97db3889bea1e48d7c8755d2180d60c29ee72f204",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/Allele_status.txt"
+  },
+  "hla_allelelist": {
+    "bytes": 954077,
+    "note": "allele id -> name index",
+    "path": "data/raw/Allelelist.txt",
+    "retrieved": "2026-08-04T15:35:28.181460+00:00",
+    "sha256": "7f09c715523d4256d33ee9634576c7cd963f46bf123295120b4e2a6327c6f334",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/Allelelist.txt"
+  },
+  "hla_prot": {
+    "bytes": 14688632,
+    "note": "IPD-IMGT/HLA protein FASTA, release v3.65.0-alpha",
+    "path": "data/raw/hla_prot.fasta",
+    "retrieved": "2026-08-04T15:35:27.959194+00:00",
+    "sha256": "a6ff785f245b6cfc194c4b96176ed19e2bed21457ef98f86d7947b6606356db3",
+    "url": "https://raw.githubusercontent.com/ANHIG/IMGTHLA/v3.65.0-alpha/hla_prot.fasta"
+  },
+  "pelc_A.csv": {
+    "bytes": 1015880,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/A.csv",
+    "retrieved": "2026-08-04T15:35:43.451741+00:00",
+    "sha256": "624b7c1eeb16c66055cdae678c955c4b3a3a465238141f7f7193a6d042cea525",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/A.csv"
+  },
+  "pelc_B.csv": {
+    "bytes": 1063933,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/B.csv",
+    "retrieved": "2026-08-04T15:35:43.650589+00:00",
+    "sha256": "13371e09c07b14e4da45cb71b5ade42645bb9d8ac3d6d21b1b1ed7b8e52f2c21",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/B.csv"
+  },
+  "pelc_C.csv": {
+    "bytes": 676662,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/C.csv",
+    "retrieved": "2026-08-04T15:35:43.879937+00:00",
+    "sha256": "cc56ad967744b9b3ea647616e6f4b79c8ab7b87bf83f328026e706b7efdb40c3",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/C.csv"
+  },
+  "pelc_DP.csv": {
+    "bytes": 188580,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/DP.csv",
+    "retrieved": "2026-08-04T15:35:44.344832+00:00",
+    "sha256": "0cbfe99de9239ec43780b8c51395798635dda63526d241e43ed292401236d149",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/DP.csv"
+  },
+  "pelc_DQ.csv": {
+    "bytes": 252036,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/DQ.csv",
+    "retrieved": "2026-08-04T15:35:44.207117+00:00",
+    "sha256": "8e675525a0f4a928be7e89d20bc192dbd5b725bce4d34f4a6d10b835316e41c9",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/DQ.csv"
+  },
+  "pelc_DR.csv": {
+    "bytes": 637355,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/DR.csv",
+    "retrieved": "2026-08-04T15:35:44.053847+00:00",
+    "sha256": "ba1c2952d6480cd2dfc104aefc30bf5a81e0535c5107acd573b572101ba6393f",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/DR.csv"
+  },
+  "pelc_ep_data.csv": {
+    "bytes": 10660,
+    "note": "EpRegistry-derived eplet table (MICS-Lab/pelc)",
+    "path": "data/raw/eplets/ep_data.csv",
+    "retrieved": "2026-08-04T15:35:44.431132+00:00",
+    "sha256": "71f10c195cd0cfd26360f0bcef2af12c72f57016dca52816302717b4e67910a8",
+    "url": "https://raw.githubusercontent.com/MICS-Lab/pelc/main/pelc/data/ep_data.csv"
+  },
+  "rcsb_1AO7": {
+    "bytes": 529092,
+    "note": "RCSB PDB 1AO7: A6 TCR / HLA-A*02:01 / HTLV-1 Tax nonamer LLFGYPVYV",
+    "path": "data/structures/reference/1AO7.pdb",
+    "retrieved": "2026-09-09T14:57:21.323576+00:00",
+    "sha256": "67a5ffb179bc5bad13710984293b1fa543c027473531c558ce6ea42ea545131c",
+    "url": "https://files.rcsb.org/download/1AO7.pdb"
+  },
+  "rcsb_1AQD": {
+    "bytes": 1110429,
+    "note": "RCSB PDB 1AQD: HLA-DR1 (DRA*01:01 / DRB1*01:01) with a bound peptide",
+    "path": "data/structures/reference/1AQD.pdb",
+    "retrieved": "2026-09-08T14:48:16.314843+00:00",
+    "sha256": "27d16f7e743cc64359665afec87f9a05115c4891d1fb14fdbb05f0b16dfeab74",
+    "url": "https://files.rcsb.org/download/1AQD.pdb"
+  },
+  "rcsb_1FYT": {
+    "bytes": 592110,
+    "note": "RCSB PDB 1FYT: HA1.7 TCR / HLA-DR1 (DRA*01:01 / DRB1*01:01) / HA 306-318",
+    "path": "data/structures/reference/1FYT.pdb",
+    "retrieved": "2026-09-09T14:57:21.744925+00:00",
+    "sha256": "f2386c30b8e160dca7803cbcfa7a7878e587d0fca70b779641d9c98e1940c840",
+    "url": "https://files.rcsb.org/download/1FYT.pdb"
+  },
+  "rcsb_1HHG": {
+    "bytes": 563031,
+    "note": "RCSB PDB 1HHG: HLA-A*02:01 with TLTSCNTSV (HIV-1 gp120 195-207)",
+    "path": "data/structures/reference/1HHG.pdb",
+    "retrieved": "2026-09-09T14:57:22.236294+00:00",
+    "sha256": "6bb8008b1daf304262625e51a320a7b66b2de665648b87822dd629306bfc4296",
+    "url": "https://files.rcsb.org/download/1HHG.pdb"
+  },
+  "rcsb_1HHI": {
+    "bytes": 566352,
+    "note": "RCSB PDB 1HHI: HLA-A*02:01 with GILGFVFTL (influenza A M1 58-66)",
+    "path": "data/structures/reference/1HHI.pdb",
+    "retrieved": "2026-09-09T14:57:22.359968+00:00",
+    "sha256": "0783fd5359bec627a3638cf7bd3c0d016f10fce13aaebf8d388bd4927835020f",
+    "url": "https://files.rcsb.org/download/1HHI.pdb"
+  },
+  "rcsb_1HHJ": {
+    "bytes": 564570,
+    "note": "RCSB PDB 1HHJ: HLA-A*02:01 with ILKEPVHGV (HIV-1 RT 309-317)",
+    "path": "data/structures/reference/1HHJ.pdb",
+    "retrieved": "2026-09-09T14:57:22.494928+00:00",
+    "sha256": "24203881bf67c5c5501418b85226aec17a2d2070eed9e76734f91777d4025ed9",
+    "url": "https://files.rcsb.org/download/1HHJ.pdb"
+  },
+  "rcsb_1HHK": {
+    "bytes": 564165,
+    "note": "RCSB PDB 1HHK: HLA-A*02:01 with beta-2-microglobulin and the HTLV-1 Tax nonamer",
+    "path": "data/structures/reference/1HHK.pdb",
+    "retrieved": "2026-09-08T14:48:16.187504+00:00",
+    "sha256": "9511878db0222f69eaaddad7219b97a4f70bc1495ca0e8f27cf78e49141521a7",
+    "url": "https://files.rcsb.org/download/1HHK.pdb"
+  },
+  "rcsb_1S9V": {
+    "bytes": 564246,
+    "note": "RCSB PDB 1S9V: HLA-DQ2 (DQA1*05:01 / DQB1*02:01) with an alpha-I gliadin peptide",
+    "path": "data/structures/reference/1S9V.pdb",
+    "retrieved": "2026-09-08T14:48:16.436960+00:00",
+    "sha256": "b5a00c5e63115cd7d7c182028356e3cebfe5ce092078b0925605ba8e827a75d2",
+    "url": "https://files.rcsb.org/download/1S9V.pdb"
+  },
+  "rcsb_3QQ3": {
+    "bytes": 580932,
+    "note": "RCSB PDB 3QQ3: SLA-1*04:01 with porcine beta-2-microglobulin and a nonamer",
+    "path": "data/structures/reference/3QQ3.pdb",
+    "retrieved": "2026-09-09T14:57:22.122251+00:00",
+    "sha256": "03d9638a01af733d74ebf0d6ce932287cfd45c9a1f3164f6aafa89848d0ad180",
+    "url": "https://files.rcsb.org/download/3QQ3.pdb"
+  },
+  "rcsb_4OZF": {
+    "bytes": 1109457,
+    "note": "RCSB PDB 4OZF: TCR / HLA-DQ2.5 (DQA1*05:01 / DQB1*02:01) / deamidated gliadin",
+    "path": "data/structures/reference/4OZF.pdb",
+    "retrieved": "2026-09-09T14:57:22.005024+00:00",
+    "sha256": "aa5f9b2886d0f1d4bb7967548acb5381541093d24af832ef0437a2a233d2b915",
+    "url": "https://files.rcsb.org/download/4OZF.pdb"
+  },
+  "rcsb_6CQL": {
+    "bytes": 617463,
+    "note": "RCSB PDB 6CQL: TCR / HLA-DR11 (DRA*01:01 / DRB1*11:01) with a bound peptide",
+    "path": "data/structures/reference/6CQL.pdb",
+    "retrieved": "2026-09-09T14:57:21.873032+00:00",
+    "sha256": "6b5e1e3ba857bf96a0293392aac76ceb7c3b78334e471ba29e4392ec5126ef44",
+    "url": "https://files.rcsb.org/download/6CQL.pdb"
+  },
+  "sla_prot": {
+    "bytes": 3542149,
+    "note": "IPD-MHC combined protein FASTA (filtered to SLA downstream)",
+    "path": "data/raw/MHC_prot.fasta",
+    "retrieved": "2026-08-04T15:35:31.291167+00:00",
+    "sha256": "72be230325574d0cfb99fd6d93d0ab4fb68c29d3c54ea4f0832eb9a16ef0aa64",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/ipd/mhc/MHC_prot.fasta"
+  }
+}

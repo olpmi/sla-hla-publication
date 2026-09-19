@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or its archived data, please cite the manuscript below."
+title: "Reproduction package: comparative bioinformatic analysis of human and swine MHC sequences"
+version: 1.0.0
+license: MIT
+type: software
+repository-code: "https://github.com/olpmi/sla-hla-publication"
+url: "https://github.com/olpmi/sla-hla-publication"
+date-released: "2026-09-19"
+# No archive DOI has been issued. DOI deposition is separate from this GitHub
+# publication and remains pending; see PROVENANCE.md. Add an `identifiers:`
+# block with the DOI only once it exists.
+abstract: >-
+  Code, archived scientific inputs and documentation reproducing the figures,
+  tables and statistics of a comparative analysis of human HLA and swine SLA MHC
+  protein sequences, their protein-language-model projection, eplet-associated
+  position agreement, and structural comparison.
+keywords:
+  - major histocompatibility complex
+  - swine leukocyte antigen
+  - human leukocyte antigen
+  - xenotransplantation
+  - protein language model
+  - eplet
+authors:
+  - name: "The authors of the accompanying manuscript"
+references:
+  - type: article
+    title: >-
+      Comparative Bioinformatic Analysis of Human and Swine MHC Sequences:
+      Implications for Xenotransplantation
+    authors:
+      - name: "See the published manuscript"
+    status: submitted

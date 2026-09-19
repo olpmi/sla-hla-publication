@@ -1,0 +1,15 @@
+# Core reproduction environment: CPU only, no GPU, no structure prediction.
+# This is all `make reproduce` needs.
+name: slahla-pub
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib-base
+  - pillow
+  - pyarrow
+  - openpyxl          # reads the curated haplotype workbooks behind Table S1
+  - pyyaml
+  - pytest

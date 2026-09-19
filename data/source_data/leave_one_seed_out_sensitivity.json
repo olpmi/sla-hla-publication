@@ -1,0 +1,86 @@
+[
+  {
+    "analysis": "class1",
+    "n": 260,
+    "same_top_locus_all_loo": 0.7269,
+    "same_top_subgroup_all_loo": 0.1654,
+    "mean_pairwise_locus_agreement": 0.8504,
+    "mean_pairwise_subgroup_agreement": 0.6054,
+    "full_vs_loo_locus_agreement": 0.8992,
+    "max_abs_change_top_locus_probability": 0.1674,
+    "median_abs_change_top_locus_probability": 0.0447,
+    "locus_counts": {
+      "full": {
+        "B": 160,
+        "A": 81,
+        "C": 19
+      },
+      "drop42": {
+        "B": 135,
+        "A": 93,
+        "C": 32
+      },
+      "drop43": {
+        "B": 163,
+        "A": 73,
+        "C": 24
+      },
+      "drop44": {
+        "B": 156,
+        "A": 94,
+        "C": 10
+      },
+      "drop45": {
+        "B": 154,
+        "A": 96,
+        "C": 10
+      },
+      "drop46": {
+        "B": 169,
+        "A": 70,
+        "C": 21
+      }
+    }
+  },
+  {
+    "analysis": "class2",
+    "n": 152,
+    "same_top_locus_all_loo": 0.8882,
+    "same_top_subgroup_all_loo": 0.5263,
+    "mean_pairwise_locus_agreement": 0.9382,
+    "mean_pairwise_subgroup_agreement": 0.7493,
+    "full_vs_loo_locus_agreement": 0.9579,
+    "max_abs_change_top_locus_probability": 0.1845,
+    "median_abs_change_top_locus_probability": 0.0353,
+    "locus_counts": {
+      "full": {
+        "DRB1": 116,
+        "DQB1": 34,
+        "DRB3": 2
+      },
+      "drop42": {
+        "DRB1": 118,
+        "DQB1": 34
+      },
+      "drop43": {
+        "DRB1": 110,
+        "DQB1": 34,
+        "DRB3": 8
+      },
+      "drop44": {
+        "DRB1": 116,
+        "DQB1": 28,
+        "DRB3": 8
+      },
+      "drop45": {
+        "DRB1": 117,
+        "DQB1": 33,
+        "DRB3": 2
+      },
+      "drop46": {
+        "DRB1": 117,
+        "DQB1": 35
+      }
+    }
+  }
+]

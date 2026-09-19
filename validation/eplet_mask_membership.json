@@ -1,0 +1,47 @@
+{
+  "what": "exact-membership comparison of the mask produced by the repaired importer against the authoritative mask used for the published analysis",
+  "importer": "slahla_pub.eplet_mask.from_registry",
+  "export": "the pinned HLA Eplet Registry per-allele export, accessed 2026-08-05 (ABC and DR/DQ/DP databases)",
+  "export_files_read": [
+    "ABC.csv (epregistry_abc_alleles.csv)",
+    "DRB_DQ_DP.csv (epregistry_qrp_alleles.csv)"
+  ],
+  "note": "the export itself is held under licence outside this repository and is not redistributed",
+  "selection_rule": {
+    "filter": "Evidence in {A1, A2, B} OR Exposition == 'High'",
+    "class1_loci": [
+      "A",
+      "B",
+      "C"
+    ],
+    "class2_loci": [
+      "DRB1",
+      "DRB3",
+      "DRB4",
+      "DRB5",
+      "DQB1"
+    ],
+    "positions": "flattened resi column, intersected with the positions the agreement matrix covers"
+  },
+  "result": {
+    "class1": {
+      "n_generated": 61,
+      "n_authoritative": 61,
+      "exact_membership_match": true,
+      "positions_only_in_generated": [],
+      "positions_only_in_authoritative": [],
+      "sha256_of_sorted_positions": "780cc979bf3dd552cac86f03151db14eb971385909775273ef13a5d5fe38fea6"
+    },
+    "class2": {
+      "n_generated": 52,
+      "n_authoritative": 52,
+      "exact_membership_match": true,
+      "positions_only_in_generated": [],
+      "positions_only_in_authoritative": [],
+      "sha256_of_sorted_positions": "9fa46d19d2e469af21ac57763059841169687d71abcf4faa18383f91e3f46e23"
+    }
+  },
+  "exact_membership_match_both_classes": true,
+  "hardcoded": false,
+  "hardcoding_note": "the importer contains no list of expected positions; EXPECTED_N holds only the two counts, and is used for a warning, never to select positions"
+}

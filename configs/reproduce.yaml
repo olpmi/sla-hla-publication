@@ -1,0 +1,23 @@
+# Paths and settings for the default reproduction workflow.
+# Every path may also be overridden by an SLAHLA_PUB_<NAME> environment variable.
+# Relative paths resolve against the repository root, never the working directory.
+paths:
+  data: data
+  source_data: data/source_data
+  structural_panels: data/structural_panels
+  archived_predictions: data/archived_predictions
+  eplet_agreement: data/eplet_agreement
+  structure_models: data/structures/models
+  structure_reference: data/structures/reference
+  haplotypes: data/haplotypes
+  artwork: publication_artwork
+  outputs: outputs
+
+settings:
+  # Fixed in the published analysis; changing them changes the result.
+  eplet_rng_seed: 20260913
+  eplet_bootstrap_resamples: 2000
+  eplet_circular_shifts: 10000
+  canonical_seeds: [42, 43, 44, 45, 46]
+  # Half a unit in the last place the archived CSVs store (six decimals).
+  numeric_tolerance: 5.0e-7

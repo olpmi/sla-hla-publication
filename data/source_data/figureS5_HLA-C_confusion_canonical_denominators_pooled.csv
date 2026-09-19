@@ -1,0 +1,15 @@
+true_label,n_observations,n_unique_alleles,label_absent_from_every_partition
+C01,183,37,False
+C02,70,14,False
+C03,789,237,False
+C04,399,80,False
+C05,295,59,False
+C06,112,23,False
+C07,1274,381,False
+C08,195,39,False
+C12,476,96,False
+C14,70,14,False
+C15,220,44,False
+C16,208,82,False
+C17,35,7,False
+C_Other,0,0,True
